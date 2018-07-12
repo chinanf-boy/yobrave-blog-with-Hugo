@@ -1,34 +1,36 @@
 baseurl         = "/"
 theme           = "casper-two"
-languageCode    = "en-US"
+languageCode    = "zh-CN"
 disqusShortname = ""
 paginate        = 6
 #SectionPagesMenu = "main"
 
 [params]
-  title       = "Hugo Casper Two"
-  subtitle    = "Port of Casper 2.x for Hugo"
+  title       = "Same like,Same guy"
+  subtitle    = "explain translate code  er"
+  copyright   = "© 2018"
 
   cover       = "img/blog-cover.jpg"
-  description = "Here is a description of your site."
+  description = "js/py/go tips"
   metaDescription = ""
   googleAnalytics = ""
   customCSS = []
   RSSLink = ""
 
-  twitterName = "faketryghost"
-  fbName = "fakeghost"
-  githubName = "eueung"
+  twitterName = ""
+  fbName = ""
+  githubName = "chinanf-boy"
 
   logo = "hugo-logo.png"
-  orgName = "EM"
-  orgWebsite = "https://www.telematika.org"
+  orgName = "yobrave"
+  orgWebsite = "https://www.llever.com"
   orgDescription = "Here is a description placeholder for your org"
 
-  author = "EM"
+
+  author = "yobrave"
   authorAvatar = "img/ghost-icon.png"
-  authorLocation = "Bandung, ID"
-  authorWebsite = "https://eueung.github.io"
+  authorLocation = "GuangZhou"
+  authorWebsite = "https://chinanf-boy.github.io"
   authorDescription = "Describe yourself.."
 
   pageNotFoundTitle = "404 - Page not found"
@@ -37,7 +39,7 @@ paginate        = 6
   singleViewStyle = "casper"
 
 [permalinks]
-  post = "/:slug/"
+  post = "/post/:slug"
 
 [[menu.main]]
   name = "Home"
@@ -45,16 +47,16 @@ paginate        = 6
   weight = 200
 
 [[menu.main]]
-  name = "Go"
-  url = "/tags/golang/"
+  name = "go"
+  url = "/tags/golang"
   weight = 100
 
 [[menu.main]]
-  name = "Food"
-  url = "/categories/food/"
+  name = "分类"
+  url = "/categories/"
   weight = 99
 
 [[menu.main]]
-  name = "External"
-  url = "https://google.com/"
+  name = "Projects"
+  url = "/categories/pro/"
   weight = 95
