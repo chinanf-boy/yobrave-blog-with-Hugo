@@ -3,6 +3,10 @@ theme           = "casper-two"
 languageCode    = "zh-CN"
 disqusShortname = ""
 paginate        = 6
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+pygmentsStyle = "dracula"
+pygmentsOptions = "linenos=inline"
 #SectionPagesMenu = "main"
 
 [params]
@@ -11,8 +15,8 @@ paginate        = 6
   copyright   = "© 2018"
 
   cover       = "img/blog-cover.jpg"
-  description = "js/py/go tips"
-  metaDescription = ""
+  description = "js/rust/go/py tips"
+  metaDescription = "blog with world"
   googleAnalytics = ""
   customCSS = []
   RSSLink = ""
@@ -21,22 +25,26 @@ paginate        = 6
   fbName = ""
   githubName = "chinanf-boy"
 
-  logo = "hugo-logo.png"
+  logo = "https://avatars2.githubusercontent.com/u/20272484?s=460&v=4"
   orgName = "yobrave"
   orgWebsite = "https://www.llever.com"
-  orgDescription = "Here is a description placeholder for your org"
+  orgDescription = "js go rust book example translate explain code"
 
 
   author = "yobrave"
   authorAvatar = "img/ghost-icon.png"
   authorLocation = "GuangZhou"
   authorWebsite = "https://chinanf-boy.github.io"
-  authorDescription = "Describe yourself.."
+  authorDescription = "I - explain/translate/code < er "
 
   pageNotFoundTitle = "404 - Page not found"
 
   #casper or caspertwo
   singleViewStyle = "casper"
+# "book-check","example",
+
+ignoreFiles = ["\\.html$"]
+# ,"example","react-from-zero","gentle-intro","liaoAliao","rust-ffi-omnibus","rustwasm-book","wasm-bindgen","react-book-list","React-hacknews","old-home","side-content"]
 
 [permalinks]
   post = "/post/:slug"
@@ -47,8 +55,8 @@ paginate        = 6
   weight = 200
 
 [[menu.main]]
-  name = "go"
-  url = "/tags/golang"
+  name = "No-Abs-Book"
+  url = "/getnoabsbooks"
   weight = 100
 
 [[menu.main]]
@@ -56,7 +64,7 @@ paginate        = 6
   url = "/categories/"
   weight = 99
 
-[[menu.main]]
-  name = "Projects"
-  url = "/categories/pro/"
-  weight = 95
+# [[menu.main]]
+#   name = "Projects"
+#   url = "/about"
+#   weight = 95
