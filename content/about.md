@@ -25,7 +25,6 @@ weight = 111
 
 ### react
 
-- [react-book-list](../react-book-list) `sample`
 - [react-from-zero](../react-from-zero) `examples` `transalte`
 - [React hacknews](../React-hacknews) `example`
 

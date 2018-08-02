@@ -1,0 +1,4 @@
+[submodule "public"]
+	path = public
+	url = https://github.com/chinanf-boy/chinanf-boy.github.io.git
+	branch = master
