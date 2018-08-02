@@ -3,10 +3,12 @@ theme           = "casper-two"
 languageCode    = "zh-CN"
 disqusShortname = ""
 paginate        = 6
+
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 pygmentsStyle = "dracula"
 pygmentsOptions = "linenos=inline"
+
 #SectionPagesMenu = "main"
 
 [params]
@@ -47,7 +49,7 @@ ignoreFiles = ["\\.html$"]
 # ,"example","react-from-zero","gentle-intro","liaoAliao","rust-ffi-omnibus","rustwasm-book","wasm-bindgen","react-book-list","React-hacknews","old-home","side-content"]
 
 [permalinks]
-  post = "/post/:slug"
+  post = "/:year/:month/:day/:title/"
 
 [[menu.main]]
   name = "Home"
@@ -64,7 +66,7 @@ ignoreFiles = ["\\.html$"]
   url = "/categories/"
   weight = 99
 
-# [[menu.main]]
-#   name = "Projects"
-#   url = "/about"
-#   weight = 95
+[[menu.main]]
+  name = "标签"
+  url = "/tags"
+  weight = 95
