@@ -4,6 +4,8 @@ languageCode    = "zh-CN"
 disqusShortname = ""
 paginate        = 6
 
+# disablePathToLower = true
+
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 pygmentsStyle = "dracula"
@@ -58,7 +60,7 @@ ignoreFiles = ["\\.html$"]
 
 [[menu.main]]
   name = "No-Abs-Book"
-  url = "/getnoabsbooks"
+  url = "/getNoAbsBooks"
   weight = 100
 
 [[menu.main]]
