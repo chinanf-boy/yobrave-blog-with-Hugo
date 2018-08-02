@@ -1,9 +1,9 @@
 ---
 title: heroku web  port 问题
-thumbnail: /file_imgs/herokulogo.png
+image: /file_imgs/herokulogo.png
 date: 2017-10-17 16:13:05
 tags: [heroku]
-banner:
+
 ---
 
 

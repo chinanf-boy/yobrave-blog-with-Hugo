@@ -1,9 +1,8 @@
 ---
 title: ChangeLog 生成器
-thumbnail: 'http://tse2.mm.bing.net/th?id=OIP.HMoLaA0mOSlTzJRGppa0ZQEgEs&pid=15.1'
+
 date: 2017-12-16 15:42:49
 tags: [github_changelog_generator]
-banner:
 ---
 
 [ChangeLog 生成器](https://github.com/skywinder/github-changelog-generator#output-example)

@@ -1,9 +1,9 @@
 ---
 title: pipenv 快速构建虚拟python环境
-thumbnail: /file_imgs/pipenvlogo.jpg
+image: /file_imgs/pipenvlogo.jpg
 date: 2017-10-09 08:15:28
 tags: [python, pipenv]
-banner:
+
 ---
 
 # pipenv python的快速构建虚拟环境

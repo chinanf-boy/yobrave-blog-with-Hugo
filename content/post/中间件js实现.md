@@ -1,9 +1,9 @@
 ---
 title: 中间件js实现
-thumbnail: /file_imgs/javascriptlogo.png
+image: /file_imgs/javascriptlogo.png
 date: 2017-06-13 10:03:19
 tags: [中间件, javascript]
-banner:
+
 ---
 
 ## 中间件模式（middleware）

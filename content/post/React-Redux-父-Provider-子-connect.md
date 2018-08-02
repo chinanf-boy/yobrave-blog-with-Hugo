@@ -1,9 +1,9 @@
 ---
 title: React-Redux 父-Provider 子-connect
-thumbnail: 'http://tse2.mm.bing.net/th?id=OIP.HMoLaA0mOSlTzJRGppa0ZQEgEs&pid=15.1'
+
 date: 2017-06-14 15:53:45
 tags:
-banner:
+
 ---
 
 来源 [Redux作者](https://egghead.io/lessons/javascript-redux-generating-containers-with-connect-from-react-redux-visibletodolist)

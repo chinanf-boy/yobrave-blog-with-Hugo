@@ -1,9 +1,9 @@
 ---
 title: Slack-Hubot-use-py-or-js
-thumbnail: /file_imgs/slacklogo.jpeg
+image: /file_imgs/slacklogo.jpeg
 date: 2017-10-09 20:17:57
 tags: [slack, hubot, python, javascript]
-banner:
+
 ---
 
 # Slack 的机器人

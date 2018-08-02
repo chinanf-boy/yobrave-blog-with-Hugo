@@ -1,9 +1,9 @@
 ---
 title: 目录环境加载 direnv
-thumbnail: 'http://tse2.mm.bing.net/th?id=OIP.HMoLaA0mOSlTzJRGppa0ZQEgEs&pid=15.1'
+
 date: 2017-12-17 20:39:21
 tags: [go, direnv]
-banner:
+
 ---
 
 ## [direnv](https://github.com/direnv/direnv)

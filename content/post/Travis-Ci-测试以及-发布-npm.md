@@ -1,9 +1,9 @@
 ---
 title: Travis Ci 测试以及 发布 npm
-thumbnail: 'http://tse2.mm.bing.net/th?id=OIP.HMoLaA0mOSlTzJRGppa0ZQEgEs&pid=15.1'
+
 date: 2017-11-21 20:57:30
 tags:
-banner:
+
 ---
 
 # [translate-js](https://github.com/chinanf-boy/translate-js)

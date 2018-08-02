@@ -2,7 +2,7 @@
 title: Typescript类-转换学习
 date: 2017-02-08 08:24:06
 tags: [typescript , javascript]
-thumbnail: /file_imgs/javascriptlogo.png
+image: /file_imgs/javascriptlogo.png
 ---
 
 #TypeScript

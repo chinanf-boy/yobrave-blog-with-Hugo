@@ -1,9 +1,8 @@
 ---
 title: mac repl js go 大混杂
-thumbnail: ./file_imgs/go-logo.jpeg
+image: ./file_imgs/go-logo.jpeg
 date: 2018-01-24 15:53:30
 tags: [go, js, repl]
-banner: ./file_imgs/go-logo.jpeg
 ---
 
 这是我 mac 上 repl 软件-「js, go」 大混杂

@@ -1,9 +1,8 @@
 ---
 title: React.Component use class or className
-thumbnail: https://chinanf-boy.github.io/2017/04/21/React-Component-use-class-or-className/logo_og.png
+image: https://chinanf-boy.github.io/2017/04/21/React-Component-use-class-or-className/logo_og.png
 date: 2017-04-21 13:32:14
 tags: [react]
-banner: https://chinanf-boy.github.io/2017/04/21/React-Component-use-class-or-className/logo_og.png
 ---
 
 # React 中 继承 React.Component

@@ -1,10 +1,9 @@
 ---
 title: React事件与原生事件
 
-thumbnail: https://chinanf-boy.github.io/2017/04/21/React-Component-use-class-or-className/logo_og.png
+image: https://chinanf-boy.github.io/2017/04/21/React-Component-use-class-or-className/logo_og.png
 date: 2017-06-04 16:03:08
 tags: [ react, 事件 ]
-banner: https://chinanf-boy.github.io/2017/04/21/React-Component-use-class-or-className/logo_og.png
 ---
 
 # 实例

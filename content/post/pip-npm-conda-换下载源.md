@@ -1,9 +1,9 @@
 ---
 title: pip npm conda 换下载源
-thumbnail: 'http://tse2.mm.bing.net/th?id=OIP.HMoLaA0mOSlTzJRGppa0ZQEgEs&pid=15.1'
+
 date: 2017-09-12 10:09:44
 tags: [pip, npm, conda]
-banner:
+
 ---
 
 ## Pip 换 阿里源

@@ -1,9 +1,9 @@
 ---
 title: yarn no sudo 设置
-thumbnail: 'http://tse2.mm.bing.net/th?id=OIP.HMoLaA0mOSlTzJRGppa0ZQEgEs&pid=15.1'
+
 date: 2017-12-22 20:43:06
 tags: [yarn]
-banner:
+
 ---
 
 # yarn 全局下载时不使用 sudo

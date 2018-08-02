@@ -2,7 +2,7 @@
 title: '批量修改文件名-cmd:bash'
 date: 2018-07-19 10:59:18
 tags: [bash,rename]
-banner:
+
 ---
 
 

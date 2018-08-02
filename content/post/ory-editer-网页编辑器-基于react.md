@@ -1,9 +1,8 @@
 ---
 title: ory-editer 网页编辑器-基于react
-thumbnail: https://github.com/ory/editor/raw/master/logo.png
+image: https://github.com/ory/editor/raw/master/logo.png
 date: 2017-05-28 17:05:02
 tags: [react, typescript, material-ui, redux，bootstrap ]
-banner: https://github.com/ory/editor/raw/master/logo.png
 ---
 
 # [ory](https://github.com/ory/editor) 的 editer 

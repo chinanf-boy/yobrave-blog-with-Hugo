@@ -1,12 +1,12 @@
 ---
 title: sublime text 插件：color Highlighter
 tags: [sublime]
-thumbnail: 'http://tse2.mm.bing.net/th?id=OIP.HMoLaA0mOSlTzJRGppa0ZQEgEs&pid=15.1'
+
 id: 258
 categories:
   - sublimetext
 date: 2017-01-14 10:08:35
-banner:
+
 ---
 
 ## sublime text

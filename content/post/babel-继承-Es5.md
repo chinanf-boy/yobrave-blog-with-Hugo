@@ -1,9 +1,8 @@
 ---
 title: babel 继承 Es5
-thumbnail: https://babeljs.io/images/logo.svg
+image: https://babeljs.io/images/logo.svg
 date: 2017-05-27 11:19:22
 tags: [babel,Es5]
-banner: https://babeljs.io/images/logo.svg
 ---
 
 # 继承

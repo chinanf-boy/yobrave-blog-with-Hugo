@@ -2,7 +2,7 @@
 title: 浏览器与node，this，的不同
 date: 2017-01-31 15:31:15
 tags: [node, 函数]
-thumbnail: /2017/01/31/js原型与构造/2015-11-11-ts3_thumbs-447.png
+image: /file_imgs/javascriptlogo.png
 ---
 
 ## 区别

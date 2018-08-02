@@ -1,9 +1,8 @@
 ---
 title: codepen 代码嵌入
-thumbnail: 'http://tse2.mm.bing.net/th?id=OIP.HMoLaA0mOSlTzJRGppa0ZQEgEs&pid=15.1'
 date: 2017-05-17 11:25:39
 tags: [codepen, 动画]
-banner: https://9l5lrtz8mj-flywheel.netdna-ssl.com/wp-content/uploads/2016/06/codepen-logo.jpg
+image: https://9l5lrtz8mj-flywheel.netdna-ssl.com/wp-content/uploads/2016/06/codepen-logo.jpg
 ---
 
 # codepen 的 代码嵌入 功能 

@@ -1,9 +1,9 @@
 ---
 title: hugo hexo 傻傻分不清出 GO实现
-thumbnail: ./file_imgs/hugologo.png
+image: ./file_imgs/hugologo.png
 date: 2017-11-14 15:08:32
 tags: [go, hugo]
-banner:
+
 ---
 
 # hugo 

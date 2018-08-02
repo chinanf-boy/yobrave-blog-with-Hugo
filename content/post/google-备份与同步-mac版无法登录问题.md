@@ -1,9 +1,8 @@
 ---
 title: google 备份与同步 mac版无法登录问题
-thumbnail: https://www.google.com/drive/static/images/drive/logo-drive.png
+image: https://www.gstatic.com/images/branding/product/1x/drive_512dp.png
 date: 2018-08-01 10:56:37
 tags: [google drive]
-banner: https://www.gstatic.com/images/branding/product/1x/drive_512dp.png
 ---
 
 在中国

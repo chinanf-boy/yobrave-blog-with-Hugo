@@ -2,8 +2,7 @@
 title: webpack+less+Autoprefixer
 date: 2017-03-15 11:56:59
 tags: [webpack, less ,Autoprefixer ,postCss]
-banner: https://s3.amazonaws.com/codementor_content/2016-Sept/webpack.jpg
-thumbnail: https://s3.amazonaws.com/codementor_content/2016-Sept/webpack.jpg
+image: https://s3.amazonaws.com/codementor_content/2016-Sept/webpack.jpg
 ---
 
 # webpack

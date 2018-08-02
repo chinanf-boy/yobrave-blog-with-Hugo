@@ -1,9 +1,9 @@
 ---
 title: position sticky 粘连定位
-thumbnail: 'http://tse2.mm.bing.net/th?id=OIP.HMoLaA0mOSlTzJRGppa0ZQEgEs&pid=15.1'
+
 date: 2018-01-20 20:25:56
 tags: [css]
-banner:
+
 ---
 
 ## position

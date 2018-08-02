@@ -1,9 +1,9 @@
 ---
 title: mrm 管理你的多个json
-thumbnail: 'http://tse2.mm.bing.net/th?id=OIP.HMoLaA0mOSlTzJRGppa0ZQEgEs&pid=15.1'
+
 date: 2017-12-04 20:05:58
 tags: [mrm]
-banner:
+
 ---
 
 # mrm

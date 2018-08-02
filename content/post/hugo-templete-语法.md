@@ -1,9 +1,9 @@
 ---
 title: hugo templete 语法
-thumbnail: ./file_imgs/hugologo.png
+image: ./file_imgs/hugologo.png
 date: 2017-11-14 17:48:57
 tags: [hugo]
-banner: 
+ 
 ---
 
 ```

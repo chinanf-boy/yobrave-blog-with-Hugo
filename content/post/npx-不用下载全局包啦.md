@@ -1,9 +1,9 @@
 ---
 title: npx 不用下载全局包啦
-thumbnail: 'http://tse2.mm.bing.net/th?id=OIP.HMoLaA0mOSlTzJRGppa0ZQEgEs&pid=15.1'
+
 date: 2017-12-04 20:06:28
 tags: [ npm, npx]
-banner:
+
 ---
 
 ## 从 ``npm@5.2.0`` 开始

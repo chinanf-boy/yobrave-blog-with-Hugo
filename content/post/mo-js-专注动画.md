@@ -1,9 +1,8 @@
 ---
 title: mo.js 专注动画
-thumbnail: https://github.com/legomushroom/mojs/blob/master/motion-for-the-web-3.png?raw=true
+image: https://github.com/legomushroom/mojs/blob/master/motion-for-the-web-3.png?raw=true
 date: 2017-12-05 23:43:05
 tags: [mo]
-banner: https://github.com/legomushroom/mojs/blob/master/motion-for-the-web-3.png?raw=true
 ---
 
 > [css-trick-介绍](https://css-tricks.com/introduction-mo-js/)

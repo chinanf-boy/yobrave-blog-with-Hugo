@@ -1,9 +1,8 @@
 ---
 title: Redux 基础
-thumbnail: https://chinanf-boy.github.io/2017/04/24/Redux-%E5%9F%BA%E7%A1%80/CPxwNCzSTOWdD4YprFIX_reduxblog.webp
+image: https://chinanf-boy.github.io/2017/04/24/Redux-%E5%9F%BA%E7%A1%80/CPxwNCzSTOWdD4YprFIX_reduxblog.webp
 date: 2017-04-24 17:01:53
 tags: [Redux, React]
-banner: https://chinanf-boy.github.io/2017/04/24/Redux-%E5%9F%BA%E7%A1%80/CPxwNCzSTOWdD4YprFIX_reduxblog.webp
 ---
 
 # 一个世界(store)

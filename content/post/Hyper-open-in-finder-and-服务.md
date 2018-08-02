@@ -1,9 +1,9 @@
 ---
 title: Hyper open in finder and 服务
-thumbnail: 'http://tse2.mm.bing.net/th?id=OIP.HMoLaA0mOSlTzJRGppa0ZQEgEs&pid=15.1'
+
 date: 2018-06-01 15:26:56
 tags: [hyper]
-banner: https://github.com/zeit/art/raw/525bd1bb39d97dd3b91c976106a6d5cc5766b678/hyper/repo-banner.png
+image: https://github.com/zeit/art/raw/525bd1bb39d97dd3b91c976106a6d5cc5766b678/hyper/repo-banner.png
 ---
 
 ### 美丽的终端 Hyper

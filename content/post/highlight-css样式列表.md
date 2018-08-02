@@ -1,9 +1,9 @@
 ---
 title: highlight-css样式列表
-thumbnail: 'http://tse2.mm.bing.net/th?id=OIP.HMoLaA0mOSlTzJRGppa0ZQEgEs&pid=15.1'
+
 date: 2017-09-22 12:58:02
 tags:
-banner:
+
 ---
 
 ## 代码高亮

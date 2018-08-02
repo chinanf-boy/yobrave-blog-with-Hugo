@@ -1,9 +1,9 @@
 ---
 title: hexo-disqus-proxy-heroku 发布 感觉一般般
-thumbnail: /file_imgs/nodelogo.png
+image: /file_imgs/nodelogo.png
 date: 2017-10-17 19:12:08
 tags: [hexo, disqus, heroku, preact]
-banner:
+
 ---
 
 # fork 别人项目

@@ -1,9 +1,9 @@
 ---
 title: 'hugo i18n '
-thumbnail: ./file_imgs/hugologo.png
+image: ./file_imgs/hugologo.png
 date: 2017-11-15 23:31:55
 tags: [hugo, i18n]
-banner:
+
 ---
 
 # 双语

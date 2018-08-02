@@ -1,9 +1,9 @@
 ---
 title: Python核心编程第三版-第二章代码运行 问题解决
-thumbnail: /file_imgs/pythonlogo.png
+image: /file_imgs/pythonlogo.png
 date: 2017-09-08 12:46:40
 tags: [python]
-banner:
+
 ---
 
 当在``windows``和``Mac``上，练习对应的代码时

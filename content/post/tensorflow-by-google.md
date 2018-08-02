@@ -1,12 +1,12 @@
 ---
 title: TensorFlow by Google
 tags: [机器学习, 图像识别]
-thumbnail: 'http://tse2.mm.bing.net/th?id=OIP.HMoLaA0mOSlTzJRGppa0ZQEgEs&pid=15.1'
+
 id: 216
 categories:
   - 机器学习
 date: 2017-01-11 16:58:39
-banner:
+
 ---
 
 So ,开始吧！

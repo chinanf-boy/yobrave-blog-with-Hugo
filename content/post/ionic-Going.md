@@ -1,9 +1,9 @@
 ---
 title: ionic Going
-thumbnail: /file_imgs/ioniclogo.png
+image: /file_imgs/ioniclogo.png
 date: 2017-10-06 19:25:25
 tags: [ionic]
-banner: 
+ 
 ---
 
 # 似流程，不是流程

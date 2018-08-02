@@ -1,9 +1,9 @@
 ---
 title: node 命令行应用 与 npm 包发布
-thumbnail: /file_imgs/nodelogo.png
+image: /file_imgs/nodelogo.png
 date: 2017-10-01 09:27:06
 tags: [npm, node命令行]
-banner: 
+ 
 ---
 
 先讲讲 ``Npm``

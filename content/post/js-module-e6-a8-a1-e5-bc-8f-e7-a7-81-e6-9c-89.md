@@ -1,9 +1,9 @@
 ---
 title: Js - Module模式 - 私有-公有-命名空间
 date: 2017-02-06 15:42:53
-thumbnail: /file_imgs/javascriptlogo.png
+image: /file_imgs/javascriptlogo.png
 tags: [javascript]
-banner:
+
 ---
 
 

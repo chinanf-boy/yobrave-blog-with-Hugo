@@ -1,9 +1,9 @@
 ---
 title: pm2 window 开机启动
-thumbnail: 'http://tse2.mm.bing.net/th?id=OIP.HMoLaA0mOSlTzJRGppa0ZQEgEs&pid=15.1'
+
 date: 2018-01-22 14:58:35
 tags: [pm2, window]
-banner:
+
 ---
 
 ## pm2 startup 开机启动 不支持 window

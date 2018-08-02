@@ -1,12 +1,12 @@
 ---
 title: translate与rotate
 tags: [canvas,html5]
-thumbnail: 'http://tse2.mm.bing.net/th?id=OIP.HMoLaA0mOSlTzJRGppa0ZQEgEs&pid=15.1'
+
 id: 265
 categories:
   - css，html
 date: 2017-01-19 21:46:00
-banner:
+
 ---
 
 # translate与rotate

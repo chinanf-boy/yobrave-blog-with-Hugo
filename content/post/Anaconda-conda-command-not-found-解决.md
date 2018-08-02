@@ -1,9 +1,8 @@
 ---
 title: 'Anaconda conda command not found : 解决'
-thumbnail: 'http://tse2.mm.bing.net/th?id=OIP.HMoLaA0mOSlTzJRGppa0ZQEgEs&pid=15.1'
+
 date: 2017-08-12 09:58:18
 tags: [zsh, Anaconda, conda]
-banner:
 ---
 
 ## conda

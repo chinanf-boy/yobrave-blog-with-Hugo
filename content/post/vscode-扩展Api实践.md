@@ -1,9 +1,9 @@
 ---
 title: vscode 扩展Api实践
-thumbnail: 'http://tse2.mm.bing.net/th?id=OIP.HMoLaA0mOSlTzJRGppa0ZQEgEs&pid=15.1'
+
 date: 2017-09-13 21:45:35
 tags: [vscode]
-banner:
+
 ---
 
 ## 前提

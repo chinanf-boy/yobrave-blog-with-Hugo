@@ -1,9 +1,9 @@
 ---
 title: 'Mac 使用 NTFS '
-thumbnail: 'http://tse2.mm.bing.net/th?id=OIP.HMoLaA0mOSlTzJRGppa0ZQEgEs&pid=15.1'
+
 date: 2017-09-26 08:32:59
 tags:
-banner:
+
 ---
 
 本机：10.12.4版本

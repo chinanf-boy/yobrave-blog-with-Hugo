@@ -1,9 +1,9 @@
 ---
 title: github hand fun vscode 用户自定义代码片段
-thumbnail: 'http://tse2.mm.bing.net/th?id=OIP.HMoLaA0mOSlTzJRGppa0ZQEgEs&pid=15.1'
+
 date: 2017-12-06 13:37:41
 tags: [vscode, github]
-banner:
+
 ---
 
 # github 连接动画 小手摆摆

@@ -1,9 +1,9 @@
 ---
 title: ionic 项目 npm问题解决
-thumbnail: /file_imgs/ioniclogo.png
+image: /file_imgs/ioniclogo.png
 date: 2017-10-06 16:52:29
 tags: [ionic, node-sass]
-banner:
+
 ---
 
 ionic项目 问题
