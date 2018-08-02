@@ -20,7 +20,7 @@ weight = 111
 
 ### vue
 
-- [getnoabsbooks](../getnoabsbooks) `book` `no-abs` `china` 
+- [getnoabsbooks](../getNoAbsBooks) `read book` `no-abs` `china` 
 - [liaoAliao](../liaoAliao) `jsonstore` `axios` `sample`
 
 ### react
