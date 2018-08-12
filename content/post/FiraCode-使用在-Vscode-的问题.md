@@ -23,9 +23,10 @@ https://github.com/tonsky/FiraCode/wiki/VS-Code-Instructions
 
 比如: macOS
 
-{% asset_img action.png action image %}
+![action](/file_imgs/2018-8/action.png)
 
-{% asset_img screen.png screen image %}
+![screen](/file_imgs/2018-8/screen.png)
+
 
 ## 记得把 Vscode 的配置 写好
 
