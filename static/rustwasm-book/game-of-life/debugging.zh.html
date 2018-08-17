@@ -69,7 +69,7 @@
         </script>
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
-            <ol class="chapter"><li><a href="introduction.zh.html"><strong aria-hidden="true">1.</strong> 介绍</a></li><li><a href="background-and-concepts.zh.html"><strong aria-hidden="true">2.</strong> 背景和概念</a></li><li><a href="setup.zh.html"><strong aria-hidden="true">3.</strong> 安装准备</a></li><li><a href="hello-world.zh.html"><strong aria-hidden="true">4.</strong> 你好,世界</a></li><li><a href="tools.zh.html"><strong aria-hidden="true">5.</strong> 工具</a></li><li><a href="workflows.zh.html"><strong aria-hidden="true">6.</strong> 工作流程</a></li><li><a href="js-ffi.zh.html"><strong aria-hidden="true">7.</strong> JavaScript互操作</a></li><li><a href="tutorials.zh.html"><strong aria-hidden="true">8.</strong> 教程</a></li><li><ol class="section"><li><a href="game-of-life/introduction.zh.html"><strong aria-hidden="true">8.1.</strong> 康威的生命游戏</a></li><li><ol class="section"><li><a href="game-of-life/setup.zh.html"><strong aria-hidden="true">8.1.1.</strong> 安装</a></li><li><a href="game-of-life/rules.zh.html"><strong aria-hidden="true">8.1.2.</strong> 规则</a></li><li><a href="game-of-life/implementing.zh.html"><strong aria-hidden="true">8.1.3.</strong> 实现</a></li><li><a href="game-of-life/debugging.zh.html" class="active"><strong aria-hidden="true">8.1.4.</strong> 调试</a></li><li><a href="game-of-life/interactivity.zh.html"><strong aria-hidden="true">8.1.5.</strong> 增加交互性</a></li><li><a href="game-of-life/time-profiling.zh.html"><strong aria-hidden="true">8.1.6.</strong> 时间分析</a></li><li><a href="game-of-life/code-size.zh.html"><strong aria-hidden="true">8.1.7.</strong> 收缩.wasm尺寸</a></li><li><a href="game-of-life/publishing.zh.html"><strong aria-hidden="true">8.1.8.</strong> 发布</a></li></ol></li><li><a href="wasm-pack/introduction.zh.html"><strong aria-hidden="true">8.2.</strong> wasm-pack</a></li><li><ol class="section"><li><a href="wasm-pack/setup.zh.html"><strong aria-hidden="true">8.2.1.</strong> 安装</a></li><li><a href="wasm-pack/initialize.zh.html"><strong aria-hidden="true">8.2.2.</strong> 项目初始化</a></li><li><a href="wasm-pack/rust-code.zh.html"><strong aria-hidden="true">8.2.3.</strong> 锈编码</a></li><li><a href="wasm-pack/package-code.zh.html"><strong aria-hidden="true">8.2.4.</strong> 包裹代码为npm</a></li><li><a href="wasm-pack/run-the-code.zh.html"><strong aria-hidden="true">8.2.5.</strong> 从npm运行代码</a></li><li><a href="wasm-pack/next-steps.zh.html"><strong aria-hidden="true">8.2.6.</strong> 下一步做什么</a></li></ol></li></ol></li></ol>
+            <ol class="chapter"><li><a href="introduction.zh.html"><strong aria-hidden="true">1.</strong> 介绍</a></li><li><a href="background-and-concepts.zh.html"><strong aria-hidden="true">2.</strong> 背景和概念</a></li><li><a href="game-of-life/introduction.zh.html"><strong aria-hidden="true">3.</strong> 教程:康威的生命游戏</a></li><li><ol class="section"><li><a href="game-of-life/setup.zh.html"><strong aria-hidden="true">3.1.</strong> 安装</a></li><li><a href="game-of-life/hello-world.zh.html"><strong aria-hidden="true">3.2.</strong> Hello, World!</a></li><li><a href="game-of-life/rules.zh.html"><strong aria-hidden="true">3.3.</strong> 规则</a></li><li><a href="game-of-life/implementing.zh.html"><strong aria-hidden="true">3.4.</strong> 实现 生命</a></li><li><a href="game-of-life/debugging.zh.html" class="active"><strong aria-hidden="true">3.5.</strong> 调试</a></li><li><a href="game-of-life/interactivity.zh.html"><strong aria-hidden="true">3.6.</strong> 增加交互性</a></li><li><a href="game-of-life/time-profiling.zh.html"><strong aria-hidden="true">3.7.</strong> 时间分析</a></li><li><a href="game-of-life/code-size.zh.html"><strong aria-hidden="true">3.8.</strong> 收缩 .wasm 尺寸</a></li><li><a href="game-of-life/production.zh.html"><strong aria-hidden="true">3.9.</strong> 生产 与 发布</a></li><li class="spacer"></li></ol></li><li><a href="crates.zh.html"><strong aria-hidden="true">5.</strong> 你应该知道的Crates箱子</a></li><li><a href="tools.zh.html"><strong aria-hidden="true">6.</strong> 你应该知道的工具</a></li><li><a href="js-ffi.zh.html"><strong aria-hidden="true">7.</strong> JavaScript 互操作</a></li></ol>
         </nav>
 
         <div id="page-wrapper" class="page-wrapper">
@@ -137,7 +137,7 @@
 <p>在我们编写更多代码之前,我们需要在出现问题时使用一些调试工具.</p>
 <a class="header" href="game-of-life/debugging.zh.html#a使用调试符号构建" id="a使用调试符号构建"><h2>使用调试符号构建</h2></a>
 <blockquote>
-<p>⚡调试时,请务必确保使用调试符号构建!</p>
+<p>⚡ 调试时,请务必确保使用调试符号构建!</p>
 </blockquote>
 <p>如果您没有启用调试符号,那么<code>&quot;name&quot;</code>部分将不会出现在<code>.wasm</code>二进制编译中和堆栈跟踪将具有类似的函数名称<code>wasm[42]</code>而不是<code>wasm_game_of_life::Universe::live_neighbor_count</code>.</p>
 <p>使用&quot;debug&quot;版本时 (又称<code>npm run build-debug</code>) 默认情况下启用调试符号.</p>
@@ -162,7 +162,7 @@ macro_rules! log {
     ($($t:tt)*) =&gt; (log(&amp;format!($($t)*)))
 }
 #}</code></pre></pre>
-<p>然后,我们可以通过在Rust代码中,插入<code>log</code>调用将消息记录到控制台. 例如,要记录每个单元的状态,活动邻居数和下一个状态,我们可以像这样修改我们的代码:</p>
+<p>然后,我们可以通过在 Rust 代码中,插入<code>log</code>调用将消息记录到控制台. 例如,要记录每个单元的状态,活动邻居数和下一个状态,我们可以像这样修改我们的代码:</p>
 <pre><code class="language-diff">diff --git a/src/lib.rs b/src/lib.rs
 index f757641..a30e107 100755
 --- a/src/lib.rs
@@ -193,22 +193,45 @@ index f757641..a30e107 100755
 <a class="header" href="game-of-life/debugging.zh.html#a参考" id="a参考"><h3>参考</h3></a>
 <ul>
 <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Console">该<code>console</code>对象</a></li>
-<li><a href="https://developer.mozilla.org/en-US/docs/Tools/Web_Console">Firefox开发人员工具 -  Web控制台</a></li>
-<li><a href="https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide/console">Microsoft Edge开发人员工具 - 控制台</a></li>
-<li><a href="https://developers.google.com/web/tools/chrome-devtools/console/get-started">开始使用Chrome DevTools控制台</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Tools/Web_Console">Firefox 开发人员工具 - Web 控制台</a></li>
+<li><a href="https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide/console">Microsoft Edge 开发人员工具 - 控制台</a></li>
+<li><a href="https://developers.google.com/web/tools/chrome-devtools/console/get-started">开始使用 Chrome DevTools 控制台</a></li>
 </ul>
+<a class="header" href="game-of-life/debugging.zh.html#a崩溃日志" id="a崩溃日志"><h2>崩溃日志</h2></a>
+<p><a href="https://github.com/rustwasm/console_error_panic_hook">这 <code>console_error_panic_hook</code> 箱子 通过<code>console.error</code>为开发者记录了异常的崩溃</a> 而不是得到 怪异的,
+难以调试的 <code>RuntimeError: unreachable executed</code> 错误信息, 它会给你格式化的崩溃信息.</p>
+<p>做到这些, 你只需要在初始化函数中载入钩子或者适应下面的通用代码:</p>
+<pre><pre class="playpen"><code class="language-rust">
+# #![allow(unused_variables)]
+#fn main() {
+extern crate console_error_panic_hook;
+
+// Expose an `init` function to be called by JS after instantiating the wasm
+// module which installs the `console.error` panic hook.
+#[wasm_bindgen]
+pub fn init() {
+    use std::panic;
+    panic::set_hook(Box::new(console_error_panic_hook::hook));
+}
+
+// OR
+
+// Ensure the the panic hook is set on some common code path. Under the hood,
+// this makes sure that it is only installed once.
+console_error_panic_hook::set_once();
+#}</code></pre></pre>
 <a class="header" href="game-of-life/debugging.zh.html#a使用调试器" id="a使用调试器"><h2>使用调试器</h2></a>
-<p>不幸的是,WebAssembly 的调试仍然不成熟. 在大多数 Unix系统上,<a href="http://dwarfstd.org/">DWARF</a>用于编码调试器提供正在运行的程序的源级检查的信息. 在Windows 上有一种替代格式可以编码类似的信息. 目前, WebAssembly 没有等价物. 因此,调试器目前提供有限的实用程序,我们最终逐步执行编译器发出的原始 WebAssembly 指令,而不是我们编写的Rust源文本.</p>
-<p>尽管如此,调试器仍然可用于检查 与WebAssembly交互的JavaScript. 例如,我们可以使用调试器在我们的<code>renderLoop</code>函数每次迭代中暂停. 这为我们提供了一个方便的检查点,用于检查记录的消息,并将当前呈现的帧与前一帧进行比较.</p>
+<p>不幸的是,WebAssembly 的调试仍然不成熟. 在大多数 Unix 系统上,<a href="http://dwarfstd.org/">DWARF</a>用于编码调试器提供正在运行的程序的源级检查的信息. 在 Windows 上有一种替代格式可以编码类似的信息. 目前, WebAssembly 没有等价物. 因此,调试器目前提供有限的实用程序,我们最终逐步执行编译器发出的原始 WebAssembly 指令,而不是我们编写的 Rust 源文本.</p>
+<p>尽管如此,调试器仍然可用于检查 与 WebAssembly 交互的 JavaScript. 例如,我们可以使用调试器在我们的<code>renderLoop</code>函数每次迭代中暂停. 这为我们提供了一个方便的检查点,用于检查记录的消息,并将当前呈现的帧与前一帧进行比较.</p>
 <p><a href="./images/game-of-life/debugging.png"><img src="./images/game-of-life/debugging.png" alt="Screenshot of debugging the Game of Life" /></a></p>
 <a class="header" href="game-of-life/debugging.zh.html#a参考-1" id="a参考-1"><h3>参考</h3></a>
 <ul>
-<li><a href="https://developer.mozilla.org/en-US/docs/Tools/Debugger">Firefox开发者工具 - 调试器</a></li>
-<li><a href="https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide/debugger">Microsoft Edge开发人员工具 - 调试器</a></li>
-<li><a href="https://developers.google.com/web/tools/chrome-devtools/javascript/">开始在Chrome DevTools中调试JavaScript</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Tools/Debugger">Firefox 开发者工具 - 调试器</a></li>
+<li><a href="https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide/debugger">Microsoft Edge 开发人员工具 - 调试器</a></li>
+<li><a href="https://developers.google.com/web/tools/chrome-devtools/javascript/">开始在 Chrome DevTools 中调试 JavaScript</a></li>
 </ul>
-<a class="header" href="game-of-life/debugging.zh.html#a首先避免调试webassembly" id="a首先避免调试webassembly"><h2>首先避免调试WebAssembly</h2></a>
-<p>虽然一些错误特定于 JavaScript和WebAssembly 的接口,但经验表明大多数错误都没有. 尝试将 bug重现 通过正常的Rust<code>#[test]</code>函数,您可以在调试时利用操作系统的成熟工具. 使用测试箱子<a href="https://crates.io/crates/quickcheck"><code>quickcheck</code></a>练习您向JavaScript公开的接口. 最终,如果您可以在不需要与 JavaScript交互 的小测试用例中隔离它们,您将更容易找到并修复错误.</p>
+<a class="header" href="game-of-life/debugging.zh.html#a首先避免调试-webassembly" id="a首先避免调试-webassembly"><h2>首先避免调试 WebAssembly</h2></a>
+<p>虽然一些错误特定于 JavaScript 和 WebAssembly 的接口,但经验表明大多数错误都没有. 尝试将 bug 重现 通过正常的 Rust<code>#[test]</code>函数,您可以在调试时利用操作系统的成熟工具. 使用测试箱子<a href="https://crates.io/crates/quickcheck"><code>quickcheck</code></a>练习您向 JavaScript 公开的接口. 最终,如果您可以在不需要与 JavaScript 交互 的小测试用例中隔离它们,您将更容易找到并修复错误.</p>
 <p>注意,为了运行<code>#[test]</code>没有编译器和链接器错误,你需要添加<code>#![wasm_bindgen]</code>注释和<code>crate-type = &quot;cdylib&quot;</code>.</p>
 <a class="header" href="game-of-life/debugging.zh.html#a练习" id="a练习"><h2>练习</h2></a>
 <ul>
@@ -216,10 +239,10 @@ index f757641..a30e107 100755
 <p>添加日志记录到<code>tick</code>函数,记录每个单元格的行和列 - 状态从活动转换为死亡,反之亦然.</p>
 </li>
 <li>
-<p>介绍一个<code>panic!()</code>在<code>Universe::new</code>方法里面. 在 Web浏览器的JavaScript调试器 中检查恐慌的回溯. 禁用调试符号,重建并再次检查堆栈跟踪. 不是很有用,是吗?</p>
+<p>介绍一个<code>panic!()</code>在<code>Universe::new</code>方法里面. 在 Web 浏览器的 JavaScript 调试器 中检查恐慌的回溯. 禁用调试符号,重建并再次检查堆栈跟踪. 不是很有用,是吗?</p>
 </li>
 <li>
-<p>checkout <code>chapter-one-with-bug</code> branch. 重建并重新加载网页. 现在很明显, 这个分支的实现包含一个<code>bug</code>, 每个单元格显然都是活着的. 这是您的作者在最初创建示例代码时, 所犯的真实世界 (tm) 错误. 找到错误并修复它. *不要看提交历史! 那是作弊 ;-) *</p>
+<p>checkout <code>chapter-one-with-bug</code> branch. 重建并重新加载网页. 现在很明显, 这个分支的实现包含一个<code>bug</code>, 每个单元格显然都是活着的. 这是您的作者在最初创建示例代码时, 所犯的真实世界 (tm) 错误. 找到错误并修复它. _不要看提交历史! 那是作弊 ;-) _</p>
 </li>
 </ul>
 
