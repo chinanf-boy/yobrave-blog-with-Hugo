@@ -1,6 +1,7 @@
 ---
 title: "如何比较不同js库的相同功能的性能"
 date: 2018-08-17T09:37:54+08:00
+image: ./file_imgs/javascriptlogo.png
 categories: ['bench']
 tags: ['js']
 description: "当不同的npm库,提供相同的功能函数时, 一般都是选择最快的. 哪个是最快的? 那首先是建立基准比较的文件运行一下,以 turbocolor 为例"
@@ -25,14 +26,14 @@ draft: false
 
 作者这样做的目的, 当然是为了表明它的快
 
-``` sh
+```
 # turbocolor bench 包结构
 readme.md # 说明如何运行,与结果报告
 index.js # 基准-bench文件 ❤️
 package.json # 建立独立的包依赖
 ```
 
-``` js
+{{< highlight js "hl_lines=32-36 41">}}
 const { Suite } = require("benchmark") // 基准测试的库
 
 console.log("# Load Time")
@@ -75,7 +76,7 @@ const bench = ({ testables, tests }) =>
                 //4
     .map(({ name, test }) => (console.log(`\n# ${name}`), test.run()))
 
-```
+{{< / highlight >}}
 
 这里是作者定义的基准测试的通用函数, 这里就用到 `benchmark` 库的API
 
@@ -83,34 +84,32 @@ const bench = ({ testables, tests }) =>
 
 > 那些 `Object map reduce` 之类 就不会讲的
 
-1. `new Suite()` - 官方例子中 初始化 管理基准流程的 API
+<b>1.</b> `new Suite()` - 官方例子中 初始化 管理基准流程的 API [官方库例子](https://github.com/bestiejs/benchmark.js#installation)
 
-[官方库例子](https://github.com/bestiejs/benchmark.js#installation)
+<b>2.</b> `Suite().on("cycle",funArgs)` - 订阅 周期 函数
 
-2. `Suite().on("cycle",funArgs)` - 订阅 周期 函数
+`funArgs` 就是 `({target: {name, hz}}) //...` ,作者描述 哪个库 一秒 多少个周期
 
-> `funArgs` 就是 `({target: {name, hz}}) //...` ,作者描述 哪个库 一秒 多少个周期
+<b>3.</b> `bench.add` - 为`Suite`添加 基准测试 函数
 
-3. `bench.add` - 为`Suite`添加 基准测试 函数
+>原生数组`reduce`的函数表明, 一开始`bench` === `new Suite的定义`
 
-> 原生数组`reduce`的函数表明, 一开始`bench` === `new Suite的定义`
-
-4. `test.run()` - 在前面的订阅/添加测试, 后
-
-需要通过, 确切的 `run`函数 来启动测试
+<b>4.</b> `test.run()` - 在前面的订阅/添加测试, 后需要通过, 确切的 `run`函数 来启动测试
 
 
 ### 下面的就是 测试函数
 
 #### "Using Styles"
 
-就是     
+就是
+
 ``` 
     chalk,
     kleur,
     "ansi-colors": ansi,
     turbocolor
 ```
+
 每个都运行`turbocolor`的同色彩函数
 
 #### "Chaining Styles"
