@@ -18,13 +18,14 @@ git push
 
 # Go To Public folder
 cd public
+git pull
 # Add changes to git.
 git add .
 git commit -m "$msg"
 
 # Push source and build repos.
 git push origin master
-git push coding master
+git push coding master -f
 
 
 # Come Back up to the Project Root
