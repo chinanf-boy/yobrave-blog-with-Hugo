@@ -14,8 +14,8 @@ pygmentsOptions = ['linenos']
 #SectionPagesMenu = "main"
 
 [params]
-  title       = "Same like,Same guy"
-  subtitle    = "explain translate code  er"
+  title       = "只是一样的人"
+  subtitle    = "code > explain > translate  er"
   copyright   = "© 2018"
 
   cover       = "img/blog-cover.jpg"
