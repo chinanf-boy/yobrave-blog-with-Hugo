@@ -10,11 +10,11 @@ draft: false
 
 长时间使用电脑导致的, 长达二三个月, 每天都会出现
 
-<img src="/file_imgs/2018-8/mac-bug1.jpeg" style="width:49%;float:left">
+<img src="/file_imgs/2018-8/mac-bug1.jpeg">
 
 > 屏幕下的黑框
 
-<img src="/file_imgs/2018-8/mac-bug2.jpeg" style="width:49%;float:left">
+<img src="/file_imgs/2018-8/mac-bug2.jpeg">
 
 > 一时无法移去的鼠标箭头
 

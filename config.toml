@@ -1,6 +1,7 @@
 baseurl         = "/"
-theme           = "casper-two"
+theme           = "yinwang"
 languageCode    = "zh-CN"
+title = "Code > Explain > Transalte 的人"
 disqusShortname = ""
 paginate        = 6
 
@@ -45,6 +46,14 @@ pygmentsOptions = ['linenos']
 
   #casper or caspertwo
   singleViewStyle = "casper"
+  github = "chinanf-boy"
+  # gitlab = "yobrave"
+  highlight = "dracula" # default use `github` style
+  langs = ["go"]
+  menus = true
+  # default load highlight.min.js but some language, Must add by youself
+  # single = false
+  # 单页面的Home 按钮去除
 # "book-check","example",
 
 ignoreFiles = ["\\.html$"]
@@ -53,17 +62,19 @@ ignoreFiles = ["\\.html$"]
 [permalinks]
   post = "/:year/:month/:day/:title/"
 
+# [[menu.main]]
+#   name = "分类"
+#   url = "/categories/"
+
+# [[menu.main]]
+#   name = "标签"
+#   url = "/tags"
+  
+
 [[menu.main]]
   name = "Home"
   url = "/"
-  weight = 200
 
 [[menu.main]]
-  name = "分类"
-  url = "/categories/"
-  weight = 99
-
-[[menu.main]]
-  name = "标签"
-  url = "/tags"
-  weight = 95
+name = "Github"
+url = "https://github.com/chinanf-boy"
