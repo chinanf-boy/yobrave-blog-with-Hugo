@@ -22,7 +22,7 @@ pygmentsOptions = ['linenos']
   cover       = "img/blog-cover.jpg"
   description = "js/rust/go/py tips"
   metaDescription = "blog with world"
-  googleAnalytics = ""
+  googleAnalytics = "UA-128555056-1" 
   customCSS = []
   RSSLink = ""
 
