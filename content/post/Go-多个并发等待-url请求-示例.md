@@ -36,26 +36,9 @@ func main() {
 		wg.Add(1)
 		all++
 
-		go func(url string) {
-			defer wg.Done()
-			fmt.Println(url)
-			res, err := http.Get(url)
-			if err != nil {
-				log.Fatal(err)
-			} else {
-				defer res.Body.Close()
-				body, err := ioutil.ReadAll(res.Body)
-				if err != nil {
-					log.Fatal(err)
-				} else {
-					jsonResponses <- len(body)
-					fmt.Println("postsend")
-
-				}
-			}
-		}(url)
+		go getURL(url, &wg, jsonResponses)
 	}
-	
+
 	index := 0
 	for response := range jsonResponses {
 		index++
@@ -68,7 +51,24 @@ func main() {
 	fmt.Println("before done")
 
 	wg.Wait()
+}
 
+func getURL(url string, wg *sync.WaitGroup, jsonResponses chan<- int) {
+	defer wg.Done()
+	fmt.Println(url)
+	res, err := http.Get(url)
+	if err != nil {
+		log.Fatal(err)
+	} else {
+		defer res.Body.Close()
+		body, err := ioutil.ReadAll(res.Body)
+		if err != nil {
+			log.Fatal(err)
+		} else {
+			jsonResponses <- len(body)
+			fmt.Println("postsend")
+		}
+	}
 }
 ```
 
