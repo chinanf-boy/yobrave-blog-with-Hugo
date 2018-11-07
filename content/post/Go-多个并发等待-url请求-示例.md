@@ -86,3 +86,7 @@ postsend
 35901
 before done
 ```
+
+## 相关
+
+- [Go-多并发-只要最快的一个正确返回,示例](http://llever.com/2018/11/07/go-%E5%A4%9A%E5%B9%B6%E5%8F%91-%E5%8F%AA%E8%A6%81%E6%9C%80%E5%BF%AB%E7%9A%84%E4%B8%80%E4%B8%AA%E6%AD%A3%E7%A1%AE%E8%BF%94%E5%9B%9E-%E7%A4%BA%E4%BE%8B/)
