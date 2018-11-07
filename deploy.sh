@@ -12,9 +12,7 @@ fi
 hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
 
 # upload source
-# git add .
-# git commit -m "$msg"
-# git push
+git add . && git commit -m "$msg" && git push
 
 # Go To Public folder
 cd public
