@@ -4,7 +4,7 @@ date: 2018-11-07T11:06:59+08:00
 categories: ["example"]
 tags: ["go","chan"]
 description: "只要最快的一个正确返回项目"
-draft: true
+draft: false
 ---
 
 我们用[Go 多个并发等待 Url请求 示例](http://llever.com/2018/11/04/go-%E5%A4%9A%E4%B8%AA%E5%B9%B6%E5%8F%91%E7%AD%89%E5%BE%85-url%E8%AF%B7%E6%B1%82-%E7%A4%BA%E4%BE%8B/)，改造
