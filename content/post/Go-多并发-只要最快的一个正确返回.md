@@ -86,3 +86,11 @@ postsend
 22747
 before done
 ```
+
+## 实际使用
+
+- [howdoi > getLinks](https://github.com/chinanf-boy/howdoi/blob/master/pkg/getAndParse.go#L114) 项目，使用两个搜索引擎，只要最快，的正确那个
+
+## 相关
+
+- [Go-多个并发等待-url请求-示例](http://llever.com/2018/11/04/go-%E5%A4%9A%E4%B8%AA%E5%B9%B6%E5%8F%91%E7%AD%89%E5%BE%85-url%E8%AF%B7%E6%B1%82-%E7%A4%BA%E4%BE%8B/)
