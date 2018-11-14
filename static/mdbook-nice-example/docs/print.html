@@ -4,7 +4,7 @@
 <head>
     <!-- Book generated using mdBook -->
     <meta charset="UTF-8">
-    <title>book.toml 配置 - mdbook 模范 例子</title>
+    <title>mdbook 模范 例子</title>
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
     <meta name="description" content="mdbook nice 例子.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -153,7 +153,7 @@
             <!-- // START - Rust Cookbook customization -->
             <script>
                 document.getElementById("edit-button").addEventListener("click", function () {
-                    var editWindow = window.open("https://github.com/chinanf-boy/mdbook-nice-example/edit/master/src/index.html");
+                    var editWindow = window.open("https://github.com/chinanf-boy/mdbook-nice-example/edit/master/src/print.md");
                 });</script>
             <!-- // END - Rust Cookbook customization -->
 
@@ -166,6 +166,7 @@
 title = &quot;mdbook 模范 例子&quot;
 authors = [&quot;yobrave&quot;]
 description = &quot;mdbook nice 例子.&quot;
+language = &quot;zh-CN&quot;
 
 [build]
 build-dir = &quot;docs&quot;
@@ -227,6 +228,15 @@ heading-split-level = 3
 </li>
 </ul>
 <p>下一节，是rust文件的导入，看看有什么不同</p>
+<a class="header" href="#a关于导入其他文件" id="a关于导入其他文件"><h1>关于导入其他文件</h1></a>
+<p>我是这样写的<code>{{ #playpen ***}}</code></p>
+<blockquote>
+<p><code>***</code> == <code>./test.rs</code></p>
+</blockquote>
+<pre><pre class="playpen"><code class="language-rust">fn main(){
+    println!(&quot;{}&quot;, &quot;hello,world&quot;)
+}
+</code></pre></pre>
 
                 </main>
 
@@ -282,6 +292,14 @@ heading-split-level = 3
     <!-- Custom JS scripts -->
     
 
+    
+    
+    <script type="text/javascript">
+        window.addEventListener('load', function () {
+            window.setTimeout(window.print, 100);
+        });
+    </script>
+    
     
 
 </body>

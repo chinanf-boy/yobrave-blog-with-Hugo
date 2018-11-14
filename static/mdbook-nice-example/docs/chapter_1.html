@@ -4,7 +4,7 @@
 <head>
     <!-- Book generated using mdBook -->
     <meta charset="UTF-8">
-    <title>mdbook 模范 例子</title>
+    <title>book.toml 配置 - mdbook 模范 例子</title>
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
     <meta name="description" content="mdbook nice 例子.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -77,7 +77,7 @@
     </script>
 
     <nav id="sidebar" class="sidebar" aria-label="Table of contents">
-        <ol class="chapter"><li><a href="chapter_1.html"><strong aria-hidden="true">1.</strong> book.toml 配置</a></li><li><ol class="section"><li><a href="include.html"><strong aria-hidden="true">1.1.</strong> 关于导入其他文件</a></li></ol></li></ol>
+        <ol class="chapter"><li><a href="chapter_1.html" class="active"><strong aria-hidden="true">1.</strong> book.toml 配置</a></li><li><ol class="section"><li><a href="include.html"><strong aria-hidden="true">1.1.</strong> 关于导入其他文件</a></li></ol></li></ol>
     </nav>
 
     <div id="page-wrapper" class="page-wrapper">
@@ -153,7 +153,7 @@
             <!-- // START - Rust Cookbook customization -->
             <script>
                 document.getElementById("edit-button").addEventListener("click", function () {
-                    var editWindow = window.open("https://github.com/chinanf-boy/mdbook-nice-example/edit/master/src/print.md");
+                    var editWindow = window.open("https://github.com/chinanf-boy/mdbook-nice-example/edit/master/src/chapter_1.md");
                 });</script>
             <!-- // END - Rust Cookbook customization -->
 
@@ -166,6 +166,7 @@
 title = &quot;mdbook 模范 例子&quot;
 authors = [&quot;yobrave&quot;]
 description = &quot;mdbook nice 例子.&quot;
+language = &quot;zh-CN&quot;
 
 [build]
 build-dir = &quot;docs&quot;
@@ -227,15 +228,6 @@ heading-split-level = 3
 </li>
 </ul>
 <p>下一节，是rust文件的导入，看看有什么不同</p>
-<a class="header" href="#a关于导入其他文件" id="a关于导入其他文件"><h1>关于导入其他文件</h1></a>
-<p>我是这样写的<code>{{ #playpen ***}}</code></p>
-<blockquote>
-<p><code>***</code> == <code>./test.rs</code></p>
-</blockquote>
-<pre><pre class="playpen"><code class="language-rust">fn main(){
-    println!(&quot;{}&quot;, &quot;hello,world&quot;)
-}
-</code></pre></pre>
 
                 </main>
 
@@ -243,6 +235,11 @@ heading-split-level = 3
                     <!-- Mobile navigation buttons -->
                     
 
+                    
+                    <a rel="next" href="include.html" class="mobile-nav-chapters next" title="Next chapter"
+                        aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
                     
 
                     <div style="clear: both"></div>
@@ -253,6 +250,11 @@ heading-split-level = 3
         <nav class="nav-wide-wrapper" aria-label="Page navigation">
             
 
+            
+            <a href="include.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter"
+                aria-keyshortcuts="Right">
+                <i class="fa fa-angle-right"></i>
+            </a>
             
         </nav>
 
@@ -291,14 +293,6 @@ heading-split-level = 3
     <!-- Custom JS scripts -->
     
 
-    
-    
-    <script type="text/javascript">
-        window.addEventListener('load', function () {
-            window.setTimeout(window.print, 100);
-        });
-    </script>
-    
     
 
 </body>
