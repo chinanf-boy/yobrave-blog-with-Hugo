@@ -154,3 +154,8 @@ func colorCode(s string) string {
 ```
 
 </details>
+
+
+## 项目实践
+
+- [howdoi, 彩色代码输出终端](https://github.com/chinanf-boy/howdoi/blob/master/pkg/colorCode.go#L20)
