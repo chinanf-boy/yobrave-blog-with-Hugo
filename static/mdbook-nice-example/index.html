@@ -4,7 +4,7 @@
 <head>
     <!-- Book generated using mdBook -->
     <meta charset="UTF-8">
-    <title>关于导入其他文件 - mdbook 模范 例子</title>
+    <title>book.toml 配置 - mdbook 模范 例子</title>
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
     <meta name="description" content="mdbook nice 例子.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -75,7 +75,7 @@
     </script>
 
     <nav id="sidebar" class="sidebar" aria-label="Table of contents">
-        <ol class="chapter"><li><a href="chapter_1.html"><strong aria-hidden="true">1.</strong> book.toml 配置</a></li><li><ol class="section"><li><a href="include.html" class="active"><strong aria-hidden="true">1.1.</strong> 关于导入其他文件</a></li></ol></li></ol>
+        <ol class="chapter"><li><a href="chapter_1.html"><strong aria-hidden="true">1.</strong> book.toml 配置</a></li><li><ol class="section"><li><a href="include.html"><strong aria-hidden="true">1.1.</strong> 关于导入其他文件</a></li><li><a href="01/README.html"><strong aria-hidden="true">1.2.</strong> 01-readme</a></li></ol></li></ol>
     </nav>
 
     <div id="page-wrapper" class="page-wrapper">
@@ -151,31 +151,36 @@
             <!-- // START - Rust Cookbook customization -->
             <script>
                 document.getElementById("edit-button").addEventListener("click", function () {
-                    var editWindow = window.open("https://github.com/chinanf-boy/mdbook-nice-example/edit/master/src/include.md");
+                    var editWindow = window.open("https://github.com/chinanf-boy/mdbook-nice-example/edit/master/src/index.html");
                 });</script>
             <!-- // END - Rust Cookbook customization -->
 
             <div id="content" class="content">
                 <main>
-                    <a class="header" href="#a关于导入其他文件" id="a关于导入其他文件"><h1>关于导入其他文件</h1></a>
+                    <a class="header" href="#chapter-1" id="chapter-1"><h1>Chapter 1</h1></a>
+<a class="header" href="#booktoml" id="booktoml"><h3>book.toml</h3></a>
+<p>示例</p>
+<pre><code class="language-toml">{{ #include ../book.toml}}
+</code></pre>
+<a class="header" href="#a关于导入其他文件的两种方式" id="a关于导入其他文件的两种方式"><h2>关于导入其他文件的两种方式</h2></a>
+<a class="header" href="#playpen" id="playpen"><h3>playpen</h3></a>
 <p>我是这样写的<code>{{ #playpen ***}}</code></p>
 <blockquote>
-<p><code>***</code> == <code>./test.rs</code></p>
+<p><code>***</code> == <code>./SUMMARY.md</code></p>
 </blockquote>
-<pre><pre class="playpen"><code class="language-rust">fn main(){
-    println!(&quot;{}&quot;, &quot;hello,world&quot;)
-}
-</code></pre></pre>
+<p>{{ #playpen ./SUMMARY.md}}</p>
+<a class="header" href="#include" id="include"><h3>include</h3></a>
+<p>我是这样写的<code>{{ #include ***}}</code></p>
+<blockquote>
+<p><code>***</code> == <code>./SUMMARY.md</code></p>
+</blockquote>
+<p>{{ #include ./SUMMARY.md}}</p>
+<p>下一节，是rust文件的导入，看看有什么不同</p>
 
                 </main>
 
                 <nav class="nav-wrapper" aria-label="Page navigation">
                     <!-- Mobile navigation buttons -->
-                    
-                    <a rel="prev" href="chapter_1.html" class="mobile-nav-chapters previous" title="Previous chapter"
-                        aria-label="Previous chapter" aria-keyshortcuts="Left">
-                        <i class="fa fa-angle-left"></i>
-                    </a>
                     
 
                     
@@ -186,11 +191,6 @@
         </div>
 
         <nav class="nav-wide-wrapper" aria-label="Page navigation">
-            
-            <a href="chapter_1.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter"
-                aria-keyshortcuts="Left">
-                <i class="fa fa-angle-left"></i>
-            </a>
             
 
             

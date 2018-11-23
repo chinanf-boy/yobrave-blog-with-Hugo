@@ -41,7 +41,9 @@ brew update-reset
 RuntimeError: Python is not installed as a framework. The Mac OS X backend will not be able to function correctly if Python is not installed as a framework. See the Python documentation for more information on installing Python as a framework on Mac OS X. Please either reinstall Python as a framework, or try one of the other backends. If you are using (Ana)Conda please install python.app and replace the use of 'python' with 'pythonw'. See 'Working with Matplotlib on OSX' in the Matplotlib FAQ for more information.
 ```
 
-**参考**：[作者说](https://github.com/wangshub/wechat_jump_game/wiki/Android-%E5%92%8C-iOS-%E6%93%8D%E4%BD%9C%E6%AD%A5%E9%AA%A4#%E4%B8%89%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%83) |[matplotlib 官方说](https://matplotlib.org/faq/osx_framework.html#conda) 后 | [Conda Install 搭配 Requirements.txt](./2018/11/22/译conda-install-搭配-requirements.txt/)
+
+**参考**：| [作者说](https://github.com/wangshub/wechat_jump_game/wiki/Android-%E5%92%8C-iOS-%E6%93%8D%E4%BD%9C%E6%AD%A5%E9%AA%A4#%E4%B8%89%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%83) | [matplotlib 官方说](https://matplotlib.org/faq/osx_framework.html#conda) 后 | [Conda Install 搭配 Requirements.txt](/2018/11/22/译conda-install-搭配-requirements.txt/)
+---|---|---|---
 
 > 我说，就算了吧，直接运行自动跳的那个好了`python wechat_jump_auto_iOS.py`(答)
 
