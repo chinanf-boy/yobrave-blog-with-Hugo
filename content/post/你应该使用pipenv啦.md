@@ -80,8 +80,8 @@ alias pip="pip3"
 
 答:
 
-1. 使用 `pipenv install --skip-lock`(首选)
+- **方法1.** 使用 `pipenv install --skip-lock`(首选)，跳过lock过程
 
-2. 进入子 shell`pipenv shell`，使用`pip install -r requirements.txt`(适用于初次转换)
+- **方法2.** 使用`pipenv shell`进入子 shell，再使用`pip install -r requirements.txt`(适用于初次转换)，也可以跳过lock过程
 
 > **提示**， 再加点 pip 下载源换成国内的，就可以‘吃’啦
