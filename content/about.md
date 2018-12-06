@@ -17,10 +17,9 @@ weight = 111
 
 - [example](../example) `w3 blog template`
 
-
 ### vue
 
-- [getnoabsbooks](../getNoAbsBooks) `read book` `no-abs` `china` 
+- [getnoabsbooks](../getNoAbsBooks) `read book` `no-abs` `china`
 - [liaoAliao](../liaoAliao) `jsonstore` `axios` `sample`
 
 ### react
