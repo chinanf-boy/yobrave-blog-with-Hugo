@@ -1,5 +1,5 @@
 ---
-title: 'Rust 官方学习索引(译+Copy)'
+title: '>>> Rust 官方学习索引(译+Copy)'
 date: 2018-12-28T20:13:43+08:00
 categories: ['rust']
 tags: ['learn']
@@ -15,15 +15,13 @@ draft: false
 
 ---
 
-<rawhtml>
-<style>div.blog-post > h2:first-child {display: none;}</style>
+{{% rawcss %}}.blog-post > h2:first-child {display:none}{{% /rawcss %}}
 
 <header class="mt3 mt2-ns mb4 mb5-ns tc tl-ns">
   <div class="w-100 mw-none ph3 mw8-m mw9-l center f3">
     <h1> &gt 学习 Rust</h1>
   </div>
 </header>
-
 <section id="learn-begin" class="green">
   <div class="w-100 mw-none ph3 mw8-m mw9-l center f3">
 <header>
@@ -45,7 +43,6 @@ example (中文)</a>
 </div>
   </div>
 </section>
-
 <section id="learn-use" class="white">
   <div class="w-100 mw-none ph3 mw8-m mw9-l center f3">
     <header>
@@ -58,7 +55,6 @@ example (中文)</a>
       <h3>领略核心文档</h3>
       <p>所有的这些文档都能通过
         <code>rustup doc</code> 命令进行本地启用(相应的源码库), 这样就可以在浏览器上查看这些资源文档，而不需要网络!</p>
-
 <section class="flex flex-column">
 <div class="pt3 flex flex-column flex-row-l">
   <a href="https://doc.rust-lang.org/std/index.html" target="_blank" rel="noopener" class="button button-secondary mw6-l w-100">标准库</a>
@@ -66,7 +62,6 @@ example (中文)</a>
     Rust 标准库 APIs - 全面指南.
   </p>
 </div>
-
 <div class="pt4 pt3-l flex flex-column flex-row-l">
   <a href="http://llever.com/cargo-book-zh" target="_blank" rel="noopener" class="button button-secondary mw6-l w-100">Cargo
     书 （非官方中文）</a>
@@ -74,7 +69,6 @@ example (中文)</a>
     一本关于 Rust’s 包管理器与构建系统的书.
   </p>
 </div>
-
 <div class="pt4 pt3-l flex flex-column flex-row-l">
   <a href="https://doc.rust-lang.org/rustdoc/index.html" target="_blank" rel="noopener" class="button button-secondary mw6-l w-100">rustdoc
     书</a>
@@ -82,7 +76,6 @@ example (中文)</a>
     学习如何为了你的箱子(crate)，搞起靓爆镜的文档.
   </p>
 </div>
-
 <div class="pt4 pt3-l flex flex-column flex-row-l">
   <a href="https://doc.rust-lang.org/rustc/index.html" target="_blank" rel="noopener" class="button button-secondary mw6-l w-100">rustc
     书</a>
@@ -90,7 +83,6 @@ example (中文)</a>
     熟悉Rust编译器中可用的'门把手'.
   </p>
 </div>
-
 <div class="pt4 pt3-l flex flex-column flex-row-l">
   <a href="https://doc.rust-lang.org/error-index.html" target="_blank" rel="noopener" class="button button-secondary mw6-l w-100">编译器错误索引</a>
   <p class="pl4-l">
@@ -111,7 +103,6 @@ example (中文)</a>
     了解如何在Rust中，搞好有效的命令行应用程序。
   </p>
 </div>
-
 <div class="pt4 pt3-l flex flex-column flex-row-l">
   <a href="https://rustwasm.github.io/book/" target="_blank" rel="noopener" class="button button-secondary mw6-l w-100">
     WebAssembly 书
@@ -120,7 +111,6 @@ example (中文)</a>
     使用Rust，搞好浏览器的WebAssembly本地库。
   </p>
 </div>
-
 <div class="pt4 pt3-l flex flex-column flex-row-l">
   <a href="https://rust-embedded.github.io/book/" class="button button-secondary mw6-l w-100">
     嵌入式 书
@@ -129,10 +119,8 @@ example (中文)</a>
     熟练使用 Rust ，搞好微控制器和其他嵌入式系统
   </p>
 </div>
-
 </section>
 </div>
-
   </div>
   </div>
 </section>
@@ -156,20 +144,17 @@ example (中文)</a>
           </a>
         </div>
       </div>
-
 <div class="flex flex-row flex-column-l justify-between-l mw8 measure-wide-l pv4 pv5-m pv6-ns ph4-l">
   <div class="v-top tc-l">
     <img src="https://rust-lang.org/static/images/nomicon.svg" alt="Two hands cradling fire" class="mw4 mw5-ns" />
   </div>
   <div class="v-top pl4 pl0-l pt0 pt3-l measure-wide-l flex-l flex-column-l flex-auto-l justify-between-l">
     <p> Rustonomicon是你的指南,有关, 不安全Rust的黑暗艺术。 它有时也被称为“the ’nomicon”。</p>
-
   <a class="button button-secondary" href="https://doc.rust-lang.org/nomicon/index.html">
     拥抱 ’nomicon
   </a>
   </div>
 </div>
-
 <div class="flex flex-row flex-column-l justify-between-l mw8 measure-wide-l pv3 pv5-m pv6-ns ph4-l">
   <div class="v-top tc-l">
     <img src="https://rust-lang.org/static/images/unstable.svg" alt="A hand sharing sparkles" class="mw4 mw5-ns" />
@@ -181,8 +166,6 @@ example (中文)</a>
     </a>
   </div>
 </div>
-
 </section>
-
-  </div>
+</div>
 </section>
