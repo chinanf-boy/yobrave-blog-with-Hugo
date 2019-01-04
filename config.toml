@@ -36,7 +36,7 @@ pygmentsOptions = ['linenos']
   orgDescription = "js go rust book example translate explain code"
 
 
-  author = "yobrave"
+  author = "yobrave (Issue me)"
   authorAvatar = "img/ghost-icon.png"
   authorLocation = "GuangZhou"
   authorWebsite = "https://chinanf-boy.github.io"
@@ -46,7 +46,7 @@ pygmentsOptions = ['linenos']
 
   #casper or caspertwo
   singleViewStyle = "casper"
-  github = "chinanf-boy"
+  github = "chinanf-boy/yobrave-blog-with-Hugo/issues"
   # gitlab = "yobrave"
   highlight = "atom-one-dark" # default use `github` style
   langs = ["go"]
