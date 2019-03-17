@@ -52,6 +52,7 @@ pygmentsOptions = ['linenos']
   langs = ["go"]
   menus = true
   backgroundColor = "#fbf6ec"
+  copyCode = true
   # default load highlight.min.js but some language, Must add by youself
   # single = false
   # 单页面的Home 按钮去除
