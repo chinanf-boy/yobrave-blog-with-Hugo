@@ -31,7 +31,7 @@ wget vlang.io/v.c && gcc -o v v.c
 
 ```go
 fn main() {
-	types := \[ 'game', 'web', 'tools', 'GUI' \]
+	types := [ 'game', 'web', 'tools', 'GUI' ]
 	for typ in types {
 		println('Hello, $typ developers!')
 	}
