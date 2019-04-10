@@ -64,20 +64,15 @@ ignoreFiles = ["\\.html$"]
 
 [permalinks]
   post = "/:year/:month/:day/:title/"
-
-
-[[menu.main]]
-  name = "Home"
-  url = "/"
   
+[[menu.main]]
+  name = "本博客主题"
+  url = "https://github.com/chinanf-boy/gohugo-theme-yinwang"
+
 [[menu.main]]
   name = "分类"
   url = "/categories/"
 
 [[menu.main]]
-  name = "标签"
-  url = "/tags"
-  
-[[menu.main]]
-name = "Github"
-url = "https://github.com/chinanf-boy"
+  name = "小记"
+  url = "/html-css-list"
