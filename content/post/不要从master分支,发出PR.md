@@ -7,17 +7,21 @@ description: '不要从master分支,发出PR'
 draft: false
 ---
 
+# 不要从 master 分支，发出 PR
+
 | 来源                                  | 日期        |
 | ------------------------------------- | ----------- |
 | [https://blog.jasonmeridth.com][blog] | 30 Mar 2012 |
 
 [blog]: https://blog.jasonmeridth.com/posts/do-not-issue-pull-requests-from-your-master-branch/
 
-# 不要从 master 分支，发出 PR
+## **问题：**
 
-**问题：**您不会希望从 fork 项目的主分支，在[Github.com](http://github.com)发出 PR 到父级存储库，因为您添加到(fork)主分支的任何新更改，都将**_自动_**显示在 PR 中。这意味着，即便您没打算要的更改，也会出现在那里。
+您不会希望从 fork 项目的主分支，在[Github.com](http://github.com)发出 PR 到父级存储库，因为您添加到(fork)主分支的任何新更改，都将 **_自动_** 显示在 PR 中。这意味着，即便您没打算要的更改，也会出现在那里。
 
-**解：**从 功能/主题(feature/topic) 分支发出 PR
+## **解：**
+
+从 功能/主题(feature/topic) 分支发出 PR
 
 **糟糕的情景：**
 
@@ -31,7 +35,7 @@ draft: false
 - 推送你的改变（`git push origin master`）
 - 上[Github](http://github.com)网站看看
 
-这里问题出现在，如果在 PR 被接受并合并**_之前_**，您继续在本地主分支上工作，并再次推送到您的 fork 项目。为什么这是一个问题 ？这就是一个问题，因为 PR 所基于的分支上，任何进一步的提交，都将**_自动_**添加到这个 PR 中。通常确切出现在，PR 被接受之前，请求您修复 它。
+这里问题出现在，如果在 PR 被接受并合并**_之前_**，您继续在本地主分支上工作，并再次推送到您的 fork 项目。为什么这是一个问题 ？这就是一个问题，因为 PR 所基于的分支上，任何进一步的提交，都将 **_自动_** 添加到这个 PR 中。通常确切出现在，PR 被接受之前，请求您修复 它。
 
 **好的场景：**
 
