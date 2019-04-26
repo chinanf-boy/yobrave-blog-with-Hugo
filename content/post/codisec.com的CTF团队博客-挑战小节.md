@@ -11,7 +11,7 @@ css:
     'https://codisec.com/wp-content/themes/codisec-strappress/style.css?ver=3.3.6',
   ]
 series: 'Codisec.com 的 CTF团队博客 - 中文翻译'
-draft: true
+draft: false
 ---
 
 <style>
@@ -164,5 +164,3 @@ $ mv ifhe_fixed heif/content/images/autumn_1440x960.heic
 ![](https://codisec.com/wp-content/uploads/2017/09/asisflag-1024x46.png)
 
 - 注意: 使用 Firefox ，要知道 Chrome 会把不同的 `file://` URIs 当作独立的来源。
-
-<br>
