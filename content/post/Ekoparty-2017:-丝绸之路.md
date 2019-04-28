@@ -1,4 +1,53 @@
-# Ekoparty 2017: 丝绸之路
+---
+title: 'Ekoparty 2017: 丝绸之路（译）'
+date: 2019-04-28T14:00:32+08:00
+categories: ['blog']
+tags: ['codisec CTF']
+description: '关于，codisec.com CTF 团队博客的中文翻译，其中有对挑战的思考与解决过程'
+css:
+  [
+    '/css/main.css',
+    '/css/stylesheet.css',
+    'https://codisec.com/wp-content/themes/codisec-strappress/style.css?ver=3.3.6',
+  ]
+series: 'Codisec.com 的 CTF团队博客 - 中文翻译'
+draft: false
+---
+
+<style>
+body{
+    background-color: #272b30;
+    color:#f9f1f1;
+    font-size:1.1em;
+}
+
+a {
+  color:#f1851a;
+}
+
+pre {
+    background-color: #272b30;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+p {
+    color: #c8c8c8;
+}
+
+li code,
+p code {
+    background-color: rgb(34, 40, 42) !important;
+    color: #f1851a;
+}
+div.inner {
+    background-color: #272b30;
+}
+</style>
+
+## 博文来源
+
+> [源文](https://codisec.com/ekoparty-2017-silk-road/) ：2017 9-21 ，作者：[Krzysztof Stopczański](https://codisec.com/author/krzysztof-stopczanski/)
 
 CTF：EKOPARTY 2017
 积分：496
@@ -20,11 +69,11 @@ torify curl -v -k "https://silkroadzpvwzxxv.onion/"
 
 - 1）登录面板：
 
-![](https://codisec.com/wp-content/uploads/2017/09/pic1-300x164.png)
+<img src="https://codisec.com/wp-content/uploads/2017/09/pic1-300x164.png" alt="" width="600" height="328" class="alignnone size-medium wp-image-14720" srcset="https://codisec.com/wp-content/uploads/2017/09/pic1-300x164.png 300w, https://codisec.com/wp-content/uploads/2017/09/pic1-768x420.png 768w, https://codisec.com/wp-content/uploads/2017/09/pic1-1024x560.png 1024w, https://codisec.com/wp-content/uploads/2017/09/pic1-250x137.png 250w, https://codisec.com/wp-content/uploads/2017/09/pic1-600x328.png 600w, https://codisec.com/wp-content/uploads/2017/09/pic1.png 1600w" sizes="(max-width: 600px) 100vw, 600px">
 
 - 2）在`/register`的注册面板，结果发现是不能用的...
 
-![](https://codisec.com/wp-content/uploads/2017/09/pic2-300x164.png)
+<img src="https://codisec.com/wp-content/uploads/2017/09/pic2-300x164.png" alt="" width="600" height="328" class="alignnone size-medium wp-image-14721" srcset="https://codisec.com/wp-content/uploads/2017/09/pic2-300x164.png 300w, https://codisec.com/wp-content/uploads/2017/09/pic2-768x420.png 768w, https://codisec.com/wp-content/uploads/2017/09/pic2-1024x560.png 1024w, https://codisec.com/wp-content/uploads/2017/09/pic2-250x137.png 250w, https://codisec.com/wp-content/uploads/2017/09/pic2-600x328.png 600w, https://codisec.com/wp-content/uploads/2017/09/pic2.png 1600w" sizes="(max-width: 600px) 100vw, 600px">
 
 测试 SQL 注入等常见漏洞，并没有带来任何用处。
 让我们来看看标题：
