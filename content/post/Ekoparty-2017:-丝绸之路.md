@@ -69,11 +69,11 @@ torify curl -v -k "https://silkroadzpvwzxxv.onion/"
 
 - 1）登录面板：
 
-<img src="https://codisec.com/wp-content/uploads/2017/09/pic1-300x164.png" alt="" width="600" height="328" class="alignnone size-medium wp-image-14720" srcset="https://codisec.com/wp-content/uploads/2017/09/pic1-300x164.png 300w, https://codisec.com/wp-content/uploads/2017/09/pic1-768x420.png 768w, https://codisec.com/wp-content/uploads/2017/09/pic1-1024x560.png 1024w, https://codisec.com/wp-content/uploads/2017/09/pic1-250x137.png 250w, https://codisec.com/wp-content/uploads/2017/09/pic1-600x328.png 600w, https://codisec.com/wp-content/uploads/2017/09/pic1.png 1600w" sizes="(max-width: 600px) 100vw, 600px">
+<img src="https://codisec.com/wp-content/uploads/2017/09/pic1-1024x560.png" alt="login">
 
 - 2）在`/register`的注册面板，结果发现是不能用的...
 
-<img src="https://codisec.com/wp-content/uploads/2017/09/pic2-300x164.png" alt="" width="600" height="328" class="alignnone size-medium wp-image-14721" srcset="https://codisec.com/wp-content/uploads/2017/09/pic2-300x164.png 300w, https://codisec.com/wp-content/uploads/2017/09/pic2-768x420.png 768w, https://codisec.com/wp-content/uploads/2017/09/pic2-1024x560.png 1024w, https://codisec.com/wp-content/uploads/2017/09/pic2-250x137.png 250w, https://codisec.com/wp-content/uploads/2017/09/pic2-600x328.png 600w, https://codisec.com/wp-content/uploads/2017/09/pic2.png 1600w" sizes="(max-width: 600px) 100vw, 600px">
+<img src="https://codisec.com/wp-content/uploads/2017/09/pic2-1024x560.png" alt="register">
 
 测试 SQL 注入等常见漏洞，并没有带来任何用处。
 让我们来看看标题：
@@ -303,6 +303,8 @@ openssl rsa -pubout -in my_key/private_key.pem -out my_key/public_key.pem
 
 让我们继续创建对， `getPublicKey` 的假响应，这次使用我们自己的密钥，并继续进行身份验证过程：
 
+> 假的 SOAP 服务器 – part 3
+
 ```php
 else if(strstr($input, 'getPublicKey') !== False)
 {
@@ -365,6 +367,8 @@ SrD0t20YtF6awDhnAYTJ9HQcMuvcMLW6XpQcIA==
 ```
 
 我们已经构建了，对我们的假 SOAP 服务器的另一个正确响应，让我们将其添加到脚本中：
+
+> 假的 SOAP 服务器 – part 4
 
 ```php
 <?php
