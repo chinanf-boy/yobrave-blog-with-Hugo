@@ -14,6 +14,7 @@ editBtn: false
 copyCode: false
 anchorLink: false
 imageZoom: false
+labels: false
 ---
 
 |  来源 | https://github.com/kognise/water.css  |

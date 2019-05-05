@@ -57,6 +57,7 @@ pygmentsOptions = ['linenos']
   copyCode = true
   anchorLink = "¶"
   imageZoom = true
+  labels = true
   # default load highlight.min.js but some language, Must add by youself
   # single = false
   # 单页面的Home 按钮去除
