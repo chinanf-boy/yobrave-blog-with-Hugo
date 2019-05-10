@@ -2,7 +2,7 @@
 title: 'Mac 想法或思维概念 文字图工具: LinkedIdeas'
 date: 2019-05-10T14:28:11+08:00
 categories: ['mac']
-tags: ['idea-draw']
+tags: ['idea-draw', 'tool']
 description: '小巧的想法，尽情，把文字灵感，描于图上'
 css: ['/css/main.css', '/css/stylesheet.css']
 draft: false
@@ -14,7 +14,6 @@ img {
     box-shadow: none;
 }
 </style>
-
 
 | 来源                                               |
 | -------------------------------------------------- |
