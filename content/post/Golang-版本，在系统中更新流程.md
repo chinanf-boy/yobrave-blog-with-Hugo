@@ -4,7 +4,7 @@ date: 2019-05-05T23:17:06+08:00
 categories: ['go']
 tags: ['update']
 description: '三种方式，更新 Go 版本'
-css: ['/css/main.css', '/css/stylesheet.css']
+css: ['/css/main.css', '/css/stylesheet.css', '/css/scroll-dark.css']
 draft: false
 ---
 
