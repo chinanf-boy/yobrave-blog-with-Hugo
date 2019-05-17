@@ -37,17 +37,17 @@ draft: false
 
 <details>
 
-<summary> 查看->能格式为的名称 </summary>
+<summary> 查看->格式名称 </summary>
 
 ```go
 [ html, json, noop, terminal, terminal16m, terminal256, tokens ]
 ```
 
-1. chroma lexers
+**1.** chroma lexers
 
-2) chroma styles
+**2.** chroma styles
 
-3. chroma formatters
+**3.** chroma formatters
 
 </details>
 
