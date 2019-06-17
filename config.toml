@@ -20,7 +20,7 @@ pygmentsOptions = ['linenos']
   copyright   = "© 2018"
 
   cover       = "img/blog-cover.jpg"
-  description = "js/rust/go/py tips"
+  description = "本博客，现主攻游戏开发/Rust/Go，希望自身加强博文的论文性与讨论性"
   metaDescription = "blog with world"
   googleAnalytics = "UA-128555056-1" 
   customCSS = []
@@ -33,7 +33,7 @@ pygmentsOptions = ['linenos']
   logo = "https://avatars2.githubusercontent.com/u/20272484?s=460&v=4"
   orgName = "yobrave"
   orgWebsite = "https://www.llever.com"
-  orgDescription = "js go rust book example translate explain code"
+  orgDescription = "game go rust book example translate explain code"
 
 
   author = "yobrave (Issue me)"
@@ -69,6 +69,12 @@ ignoreFiles = ["\\.html$"]
 [permalinks]
   post = "/:year/:month/:day/:title/"
   
+
+[[menu.main]]
+  name = "杂记"
+  url = "/pass-blog"
+  weight = 100
+
 [[menu.main]]
   name = "本博客主题"
   url = "https://github.com/chinanf-boy/gohugo-theme-yinwang"
@@ -76,7 +82,3 @@ ignoreFiles = ["\\.html$"]
 [[menu.main]]
   name = "分类"
   url = "/categories/"
-
-[[menu.main]]
-  name = "小记"
-  url = "/html-css-list"

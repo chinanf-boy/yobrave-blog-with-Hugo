@@ -1,13 +1,9 @@
 # hugo blog 元数据
 
-「 主题是 [casper-two](https://github.com/eueung/hugo-casper-two) 」
+「 主题是 [yinwang](https://github.com/chinanf-boy/gohugo-theme-yinwang) 」
 
 ---
 
-<!-- START doctoc -->
-<!-- END doctoc -->
-
----
 
 部署 github 与 coding{中国}
 
