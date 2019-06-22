@@ -11,8 +11,12 @@ fi
 # Build the project.
 hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
 
+echo "after hugo"
+
 # upload source
 git add . && git commit -m "$msg" && git push
+
+echo "go to public task"
 
 # Go To Public folder
 cd public
