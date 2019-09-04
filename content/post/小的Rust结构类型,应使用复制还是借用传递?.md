@@ -1,5 +1,5 @@
 ---
-title: '小的Rust结构类型,应使用复制还是借用传递?'
+title: '小的Rust结构类型,应使用复制还是借用传递?(译)'
 date: 2019-09-02T10:11:45+08:00
 categories: ['Rust']
 tags: ['copy', 'borrow', 'struct']
