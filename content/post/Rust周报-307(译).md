@@ -3,7 +3,7 @@ title: "Rust周报 307(译)"
 date: 2019-10-10T23:09:19+08:00
 categories: ['Rust']
 tags: ['week']
-description: '螃蟹-Rust周报-304'
+description: '螃蟹-Rust周报-307'
 css: ['/css/main.css', '/css/stylesheet.css']
 series: 'Rust周报-中文'
 draft: false
