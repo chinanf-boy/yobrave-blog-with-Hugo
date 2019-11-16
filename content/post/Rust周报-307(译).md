@@ -131,7 +131,7 @@ _本周未批准任何 RFC。_
 
 _当前没有 RFC 处于最后评论期。_
 
-### [跟踪问题和公关](https://github.com/rust-lang/rust/labels/final-comment-period)
+### [跟踪问题和PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
 - \[处理：合并] [稳定化 proc macros 对 `macro_rules` items 的生成](https://github.com/rust-lang/rust/pull/64035)。
 - \[处理：合并] [稳定化 `slice::repeat` (feature `repeat_generic_slice`)](https://github.com/rust-lang/rust/pull/64877)。

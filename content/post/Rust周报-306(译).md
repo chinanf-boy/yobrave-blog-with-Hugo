@@ -112,7 +112,7 @@ a { color: #804d0f;}
 - \[处置：合并] [支持的 rust 版本下限](https://github.com/rust-lang/rfcs/pull/2495)。
 - \[处置：关闭] [基于项目的示例，用 cargo 项目](https://github.com/rust-lang/rfcs/pull/2517)。
 
-### [跟踪问题和公关](https://github.com/rust-lang/rust/labels/final-comment-period)
+### [跟踪问题和PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
 - \[处置：合并:] [RFC 2008 的跟踪问题：#[non_exhaustive] attribute，面向 Future 的枚举/结构](https://github.com/rust-lang/rust/issues/44109)。
 - \[处置：合并] [稳定化 `option::as_deref` 和 `option::as_deref_mut`](https://github.com/rust-lang/rust/pull/64708)。

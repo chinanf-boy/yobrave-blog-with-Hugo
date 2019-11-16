@@ -118,7 +118,7 @@ _本周未批准任何 RFC。_
 - \[处理：合并] [宣布 ffi-unwinding project group](https://github.com/rust-lang/rfcs/pull/2797)。
 - \[处理：推迟] [签入 registry index commits](https://github.com/rust-lang/rfcs/pull/2474)。
 
-### [跟踪问题和公关](https://github.com/rust-lang/rust/labels/final-comment-period)
+### [跟踪问题和PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
 - \[处理：合并] [稳定化 --extern ：不带一个 path 得标志](https://github.com/rust-lang/rust/pull/64882)。
 - \[处理：合并] [将 derive helpers 完全整合到 name resolution](https://github.com/rust-lang/rust/pull/64694)。

@@ -112,7 +112,7 @@ _本周未批准任何 RFC。_
 
 - \[处理：推迟] [signing registry index commits](https://github.com/rust-lang/rfcs/pull/2474)。
 
-### [跟踪问题和公关](https://github.com/rust-lang/rust/labels/final-comment-period)
+### [跟踪问题和PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
 - \[处理：合并] [稳定化： --extern 标志，不用一个 path](https://github.com/rust-lang/rust/pull/64882)。
 - \[处理：合并] [稳定化： cfg(doctest)](https://github.com/rust-lang/rust/pull/63803)。
