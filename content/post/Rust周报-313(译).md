@@ -12,11 +12,12 @@ draft: false
 <style>
 a { color: #804d0f;}
 </style>
+
 [本周的螃蟹行情](https://this-week-in-rust.org/)
 
 日期：2019-11-19
 
-[原文：本周 Rust(螃蟹) 319](https://this-week-in-rust.org/blog/2019/11/19/this-week-in-rust-319/)
+[原文：本周 Rust(螃蟹) 313](https://this-week-in-rust.org/blog/2019/11/19/this-week-in-rust-313/)
 
 你好，欢迎再来一期*本周的螃蟹行情*！[Rust](http://rust-lang.org)是一种追求三位一体的系统语言：安全性、并发性和速度。这是它的进展和社区的每周总结。有什么要说的吗？推特[@ThisWeekInRust](https://twitter.com/ThisWeekInRust)或[向我们发送请求](https://github.com/cmr/this-week-in-rust)。 想参与吗？[我们热爱贡献](https://github.com/rust-lang/rust/blob/master/CONTRIBUTING.md).
 
