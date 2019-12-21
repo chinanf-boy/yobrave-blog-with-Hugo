@@ -12,6 +12,7 @@ draft: false
 <style>
 a { color: #804d0f;}
 </style>
+
 [本周的螃蟹行情](https://this-week-in-rust.org/)
 
 日期：2019-12-10
