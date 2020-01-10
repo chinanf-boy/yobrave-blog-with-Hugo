@@ -117,7 +117,7 @@ _没有针对 CfP 提出任何问题_。
 
 _当前没有 RFC 处于最后评论期。_
 
-### [跟踪问题和公关](https://github.com/rust-lang/rust/labels/final-comment-period)
+### [跟踪问题和PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
 - \[处置：合并] [添加 intofuture trait 并支持 await](https://github.com/rust-lang/rust/pull/65244)。
 - \[处置：合并] [添加 partialeq 和 eq 到 cursor](https://github.com/rust-lang/rust/pull/67233)。

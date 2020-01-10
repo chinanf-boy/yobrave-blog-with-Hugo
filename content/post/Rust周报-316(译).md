@@ -130,7 +130,7 @@ _本周未批准任何 RFC。_
 
 - \[处理：合并] [提出，formatting macros 的暗含名字的参数](https://github.com/rust-lang/rfcs/pull/2795)。
 
-### [跟踪问题和公关](https://github.com/rust-lang/rust/labels/final-comment-period)
+### [跟踪问题和PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
 - \[处理：合并] [强力反对 error::description](https://github.com/rust-lang/rust/pull/66919)。
 - \[处理：合并] [稳定化： `core::panic` 模块](https://github.com/rust-lang/rust/pull/66771)。

@@ -113,7 +113,7 @@ _本周未批准任何 RFC。_
 
 _当前没有 RFC 处于最后评论期。_
 
-### [跟踪问题和公关](https://github.com/rust-lang/rust/labels/final-comment-period)
+### [跟踪问题和PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
 - \[处置：合并] [添加方法 Result::into_ok](https://github.com/rust-lang/rust/pull/66045)。
 - \[处置：合并] [`From<NonZero*>` 的实现，给那些 wider 非零类型](https://github.com/rust-lang/rust/pull/66277)。

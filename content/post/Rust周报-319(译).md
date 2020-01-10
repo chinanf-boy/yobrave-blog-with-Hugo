@@ -113,7 +113,7 @@ _本周未批准任何 RFC。_
 
 _当前没有 RFC 处于最后评论期。_
 
-### [跟踪问题和公关](https://github.com/rust-lang/rust/labels/final-comment-period)
+### [跟踪问题和PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
 _当前没有 RFC 处于最后评论期。_
 

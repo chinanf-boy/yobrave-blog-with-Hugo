@@ -116,7 +116,7 @@ _本周未批准任何 RFC。_
 - \[处置：合并] [把 apple 32bit targets 降级为 tier 3](https://github.com/rust-lang/rfcs/pull/2837)。
 - \[处置：合并] [宣布 safe-transmute 项目组](https://github.com/rust-lang/rfcs/pull/2835)。
 
-### [跟踪问题和公关](https://github.com/rust-lang/rust/labels/final-comment-period)
+### [跟踪问题和PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
 _当前没有 RFC 处于最后评论期。_
 
