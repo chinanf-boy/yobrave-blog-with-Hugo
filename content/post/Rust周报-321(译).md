@@ -30,7 +30,7 @@ a { color: #804d0f;}
 - [虚幻引擎中的 Rust 代码](https://ejmahler.github.io/rust_in_unreal/)。
 - [简介- Roguelike 教程](http://bfnightly.bracketproductions.com/rustbook/chapter_0.html)。
 - [迈向 Rust 基础](https://smallcultfollowing.com/babysteps/blog/2020/01/09/towards-a-rust-foundation/)。
-- [Way Cooler 验尸](http://way-cooler.org/blog/2020/01/09/way-cooler-post-mortem.html)。
+- [Way Cooler 事后剖析](http://way-cooler.org/blog/2020/01/09/way-cooler-post-mortem.html)。
 - [Why Rust? I have a GC](https://llogiq.github.io/2020/01/10/rustvsgc.html)！
 - [rust-analyzer changelog 7](https://rust-analyzer.github.io/thisweek/2020/01/13/changelog-7.html).
 - [本月 Rust gamedev 5- 2019 年 12 月](https://rust-gamedev.github.io/posts/newsletter-005/).
