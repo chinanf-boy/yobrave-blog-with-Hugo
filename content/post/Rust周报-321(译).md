@@ -34,7 +34,7 @@ a { color: #804d0f;}
 - [Why Rust? I have a GC](https://llogiq.github.io/2020/01/10/rustvsgc.html)！
 - [rust-analyzer changelog 7](https://rust-analyzer.github.io/thisweek/2020/01/13/changelog-7.html).
 - [本月 Rust gamedev 5- 2019 年 12 月](https://rust-gamedev.github.io/posts/newsletter-005/).
-- [RDBC 正迁往东京](https://andygrove.io/2020/01/rust-database-connectivity-rdbc/).
+- [RDBC 正迁往 Tokio](https://andygrove.io/2020/01/rust-database-connectivity-rdbc/).
 - [用 Rust 和 Z3 合成 loop-free程序](https://fitzgeraldnick.com/2020/01/13/synthesizing-loop-free-programs.html).
 - [ESP32 上，集装箱型构建 for Rust](https://dev.to/mtnmts/containerized-builds-for-rust-on-the-esp32-e8m).
 - [在 Rust 内核中，实现协同调度](https://ryan-jacobs1.github.io/2020/01/06/scheduler.html)。
