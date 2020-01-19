@@ -4,20 +4,20 @@ date: 2020-01-16T21:38:29+08:00
 categories: ["Rust"]
 tags: ["week"]
 description: "螃蟹-Rust周报-321"
-css: ["/css/main.css", "/css/stylesheet.css"]
+css: ["/css/main.css", "/css/stylesheet.css", "/css/rust-week.css"]
 series: "Rust周报-中文"
 draft: false
 ---
 
-<style>
-a { color: #804d0f;}
-</style>
+<img src="https://www.rust-lang.org/static/images/rust-logo-blk.svg" alt="rs logo" class="medium-zoom-image" style="
+    width: 200px;
+    background: white;
+">
 
-[本周的螃蟹行情](https://this-week-in-rust.org/)
+- [this-week-in-rust]((https://this-week-in-rust.org))
+- 日期：2020-01-14
+- [原文：321 期](https://this-week-in-rust.org/blog/2020/01/14/this-week-in-rust-321/)
 
-日期：2020-01-14
-
-[原文：本周 Rust(螃蟹) 321](https://this-week-in-rust.org/blog/2020/01/14/this-week-in-rust-321/)
 
 你好，欢迎再来一期*本周的螃蟹行情*！[Rust](http://rust-lang.org)是一种追求三位一体的系统语言：安全性、并发性和速度。这是它的进展和社区的每周总结。有什么要说的吗？推特[@ThisWeekInRust](https://twitter.com/ThisWeekInRust)或[向我们发送请求](https://github.com/cmr/this-week-in-rust)。 想参与吗？[我们热爱贡献](https://github.com/rust-lang/rust/blob/master/CONTRIBUTING.md).
 
@@ -35,7 +35,7 @@ a { color: #804d0f;}
 - [rust-analyzer changelog 7](https://rust-analyzer.github.io/thisweek/2020/01/13/changelog-7.html).
 - [本月 Rust gamedev 5- 2019 年 12 月](https://rust-gamedev.github.io/posts/newsletter-005/).
 - [RDBC 正迁往 Tokio](https://andygrove.io/2020/01/rust-database-connectivity-rdbc/).
-- [用 Rust 和 Z3 合成 loop-free程序](https://fitzgeraldnick.com/2020/01/13/synthesizing-loop-free-programs.html).
+- [用 Rust 和 Z3 合成 loop-free 程序](https://fitzgeraldnick.com/2020/01/13/synthesizing-loop-free-programs.html).
 - [ESP32 上，集装箱型构建 for Rust](https://dev.to/mtnmts/containerized-builds-for-rust-on-the-esp32-e8m).
 - [在 Rust 内核中，实现协同调度](https://ryan-jacobs1.github.io/2020/01/06/scheduler.html)。
 
@@ -55,7 +55,7 @@ a { color: #804d0f;}
 
 其中一些任务可能还提供了导师，请访问任务页以获取更多信息。
 
-- \[good first issue] [sqlx: 添加一个Encode 和 Decode 的 proc macro derive，用来支持 _仅_ 1-arity 元组结构](https://github.com/launchbadge/sqlx/issues/34)和导师一起。
+- \[good first issue] [sqlx: 添加一个 Encode 和 Decode 的 proc macro derive，用来支持 _仅_ 1-arity 元组结构](https://github.com/launchbadge/sqlx/issues/34)和导师一起。
 - [帮助将 hyper 和 body image futio 移植到 async-std](https://users.rust-lang.org/t/twir-call-for-participation/4821/288).
 
 如果您是 Rust 项目的所有者并正在寻找贡献者，请提交任务[在这里][guidelines].
@@ -118,7 +118,7 @@ _本周没有批准招标书。_
 
 > @ZiCog: 是否有人在 Rust 对标 C 的某些问题上，有个'无禁止, unsafe or not'之类的答案?
 >
-> @kornel: 通过 c2rust，pipe C 版本  :slight_smile:
+> @kornel: 通过 c2rust，pipe C 版本 :slight_smile:
 >
 > @ZiCog: 呀! 这么说现在，Rust 打败了 Clang 和 GCC!
 

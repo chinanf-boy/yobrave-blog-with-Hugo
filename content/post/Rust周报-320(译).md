@@ -4,14 +4,15 @@ date: 2020-01-10T10:26:30+08:00
 categories: ["Rust"]
 tags: ["week"]
 description: "螃蟹-Rust周报-320"
-css: ["/css/main.css", "/css/stylesheet.css"]
+css: ["/css/main.css", "/css/stylesheet.css", "/css/rust-week.css"]
 series: "Rust周报-中文"
 draft: false
 ---
 
-<style>
-a { color: #804d0f;}
-</style>
+<img src="https://www.rust-lang.org/static/images/rust-logo-blk.svg" alt="rs logo" class="medium-zoom-image" style="
+    width: 200px;
+    background: white;
+">
 
 [本周的螃蟹行情](https://this-week-in-rust.org/)
 

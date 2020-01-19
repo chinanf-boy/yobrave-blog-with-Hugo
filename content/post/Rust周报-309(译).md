@@ -4,14 +4,10 @@ date: 2019-10-24T17:55:15+08:00
 categories: ['Rust']
 tags: ['week']
 description: '螃蟹-Rust周报-309'
-css: ['/css/main.css', '/css/stylesheet.css']
-series: 'Rust周报-中文'
+css: ["/css/main.css", "/css/stylesheet.css", "/css/rust-week.css"]
+series: "Rust周报-中文"
 draft: false
 ---
-
-<style>
-a { color: #804d0f;}
-</style>
 
 [本周的螃蟹行情](https://this-week-in-rust.org/)
 
