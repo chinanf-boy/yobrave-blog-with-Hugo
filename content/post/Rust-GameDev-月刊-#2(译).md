@@ -3,7 +3,7 @@ title: "Rust GameDev 月刊 #2(译)"
 date: 2020-01-20T13:21:58+08:00
 categories: ["Rust"]
 tags: ["month"]
-description: "Rust-GameDev-月刊-#1"
+description: "Rust-GameDev-月刊"
 css: ["/css/main.css", "/css/stylesheet.css"]
 series: "Rust-GameDev-月刊-中文"
 draft: false
