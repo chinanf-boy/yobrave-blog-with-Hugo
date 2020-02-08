@@ -4,15 +4,10 @@ date: 2020-01-20T13:21:58+08:00
 categories: ["Rust"]
 tags: ["month"]
 description: "Rust-GameDev-月刊"
-css: ["/css/main.css", "/css/stylesheet.css"]
+css: ["/css/main.css", "/css/stylesheet.css", "/css/rust-gamedev.css"]
 series: "Rust-GameDev-月刊-中文"
 draft: false
 ---
-
-<style>
-a { color: #b33434;}
-div.inner  { background: #fbf6ec !important;}
-</style>
 
 [![](https://rust-gamedev.github.io/logo.png)](https://rust-gamedev.github.io/)
 
@@ -400,4 +395,3 @@ _讨论：[/r/rust](https://reddit.com/r/rust/comments/a6v0p1/sandspiel_a_fallin
 - [Twitter (rust_gamedev)](https://twitter.com/rust_gamedev "rust_gamedev")
 - [Discord (#wg-gamedev)](https://discord.gg/j6QJsMd "Discord")
 - [RSS feed](https://rust-gamedev.github.io/feed.xml "RSS")
-

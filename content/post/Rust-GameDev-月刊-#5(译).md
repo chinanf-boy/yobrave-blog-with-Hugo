@@ -4,15 +4,10 @@ date: 2020-01-22T09:59:00+08:00
 categories: ["Rust"]
 tags: ["month"]
 description: "Rust-GameDev-月刊"
-css: ["/css/main.css", "/css/stylesheet.css"]
+css: ["/css/main.css", "/css/stylesheet.css", "/css/rust-gamedev.css"]
 series: "Rust-GameDev-月刊-中文"
 draft: false
 ---
-
-<style>
-a { color: #b33434;}
-div.inner  { background: #fbf6ec !important;}
-</style>
 
 [![](https://rust-gamedev.github.io/logo.png)](https://rust-gamedev.github.io/)
 
