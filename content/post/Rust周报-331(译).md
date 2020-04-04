@@ -3,7 +3,7 @@ title: "Rust周报 331(译)"
 date: 2020-03-27T11:26:39+08:00
 categories: ["Rust"]
 tags: ["week"]
-description: "螃蟹-Rust周报-330"
+description: "螃蟹-Rust周报-331"
 css: ["/css/main.css", "/css/stylesheet.css", "/css/rust-week.css"]
 series: "Rust周报-中文"
 draft: false
@@ -13,7 +13,6 @@ draft: false
     width: 200px;
     background: white;
 ">
-
 
 - [this-week-in-rust](https://this-week-in-rust.org)
 - 日期：2020-03-24
@@ -35,7 +34,7 @@ draft: false
 - [安全 Rust 准则](https://anssi-fr.github.io/rust-guide/)。
 - [我如何构建我的应用程序（使用 Rust 和其他语言）](https://dpc.pw/how-i-structure-my-apps-in-rust-and-other-languages)。
 - [备忘单：Option（ Rust ）与 Maybe（ Haskell ）](https://notes.iveselov.info/programming/cheatsheet-rust-option-vs-haskell-maybe)。
-- [Rust 的两年](http://brooker.co.za/blog/2020/03/22/rust.html)。
+- [两年 Rust](http://brooker.co.za/blog/2020/03/22/rust.html)。
 - [减少 librsvg 中的内存消耗，第 3 部分：slack space in Bézier paths](https://people.gnome.org/~federico/blog/reducing-memory-consumption-in-librsvg-3.html)。
 - [用被诅咒的 Rust，激起神的愤怒](http://troubles.md/abusing-rustc/)。
 - [让我们编写一个 Web Assembly 解释器（第 1 部分）](https://medium.com/@richardanaya/lets-write-a-web-assembly-interpreter-part-1-287298201d75)。
