@@ -29,7 +29,7 @@ draft: false
 - [为什么我要建立一个新的 async runtime](https://stjepang.github.io/2020/04/03/why-im-building-a-new-async-runtime.html)。
 - [200 行 Rust 代码， 为你解释 Futures](https://cfsamson.github.io/books-futures-explained/)。
 - [Sled：对'准确性至关重要'的 Rust 项目中的错误处理](http://sled.rs/errors)。
-- [最常见的，忽略性质的 lints](https://github.com/rust-lang/rust-clippy/issues/5418)。
+- [对 rust-clippy 最常忽视的 lints，降级或删除](https://github.com/rust-lang/rust-clippy/issues/5418)。
 - [Ok-Wrapping 的道歉小文](https://boats.gitlab.io/blog/post/why-ok-wrapping/)。
 - [从 failure(失败) 到 Fehler（错误）](https://boats.gitlab.io/blog/post/failure-to-fehler/)。
 - [嵌入式 WG 的 树莓派 OS 开发教程：教程 14 - 异常部分 2：外设 IRQ](https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials/tree/master/14_exceptions_part2_peripheral_IRQs)。
