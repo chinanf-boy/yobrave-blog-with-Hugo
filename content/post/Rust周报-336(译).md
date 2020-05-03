@@ -35,7 +35,7 @@ draft: false
 - [tagged union 的内存有效序列化](https://robinmoussu.gitlab.io/blog/post/binary_serialisation_of_enum/)。
 - [Unpacking Serde](https://www.reddit.com/r/rust/comments/g6ubuv/unpacking_serde_a_series_of_presentations_i_made/)。
 - \[视频] [rust stream: ownership, closures, and threads (所有权，闭包和线程)- oh my](https://www.youtube.com/watch?v=2mwwYbBRJSo)。
-- [Crust of Rust：生命周期注释](https://docs.google.com/spreadsheets/d/15pqsOlwc2eBXNRV0GJP7Taa3NnFi5kMFpmyVerONsf8/edit#gid=853276561)。
+- \[视频] [Crust of Rust：生命周期注释](https://docs.google.com/spreadsheets/d/15pqsOlwc2eBXNRV0GJP7Taa3NnFi5kMFpmyVerONsf8/edit#gid=853276561)。
 - [对 Rust 和 WebAssembly 的第一印象](https://deedone.github.io/posts/rust-wasm/)。
 - [从 Rust 到 WebAssembly：使用 Actix ＆ Yew 构建 交互式笔记 网络应用程序](https://www.luu.io/posts/lenote)。
 - [Rust 的 future：内部执行过程](https://blog.knoldus.com/rusts-future-internal-execution/)。
