@@ -32,7 +32,7 @@ draft: false
 - [一个 no_std Rust 二进制文件](https://fasterthanli.me/blog/2020/a-no-std-rust-binary/)
 - [io_uring 的注意事项](https://boats.gitlab.io/blog/post/io-uring/)
 - [no_std async/await —— 即将稳定](https://ferrous-systems.com/blog/stable-async-on-embedded/)
-- [“try fn”，无特殊的 Result](https://dev.to/cad97/try-fn-without-special-casing-result-4m5b)
+- [“try fn” - Result 的不特殊性](https://dev.to/cad97/try-fn-without-special-casing-result-4m5b)
 - [time_it：Rust 宏中的一个案例研究](https://notes.iveselov.info/programming/time_it-a-case-study-in-rust-macros)
 - [动态样式表和 Yew](https://conradludgate.com/posts/yew-css/)
 - [Rust 异步编程的实用介绍](http://jamesmcm.github.io/blog/2020/05/06/a-practical-introduction-to-async-programming-in-rust/#en)
