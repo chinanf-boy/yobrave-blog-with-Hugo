@@ -1,10 +1,10 @@
 ---
-title: '小的Rust结构类型,应使用复制还是借用传递?(译)'
+title: "小的Rust结构类型,应使用复制还是借用传递?(译)"
 date: 2019-09-02T10:11:45+08:00
-categories: ['Rust']
-tags: ['copy', 'borrow', 'struct']
-description: '复制还是借用传递，这是一个问题'
-css: ['/css/main.css', '/css/stylesheet.css']
+categories: ["Rust"]
+tags: ["copy", "borrow", "struct"]
+description: "复制还是借用传递，这是一个问题"
+css: ["/css/main.css", "/css/stylesheet.css"]
 draft: false
 ---
 
@@ -127,7 +127,7 @@ for cycle in 0...5 {
 
 ## 随我来到 C ++ Rabbit Hole
 
-在我最初的 Rust 基准测试之后，我决定将我的测试套件移植到 C ++。代码类似，但不完全相同。Rust 和 C ++的代码实现都是我认为在各自语言中常用方式的。
+在我最初的 Rust 基准测试之后，我决定将我的测试套件移植到 C ++ 。代码类似，但不完全相同。Rust 和 C ++ 的代码实现都是我认为在各自语言中常用方式的。
 
 ```
   C++
@@ -141,21 +141,21 @@ for cycle in 0...5 {
 等等，什么？！至少有两件事情在这里非常奇怪。
 
 1.  `double`(f64)按值传递是*快*过`float`按值传递
-2.  C ++`float`比 Rust 的`f32`慢了两倍
+2.  C ++ `float`比 Rust 的`f32`慢了两倍
 
 ### 内联
 
-显然，发生了一些意外。使用 Visual Studio 2019，我抓住了一对快速 CPU 配置文件。
+显然，发生了一些意外。使用 Visual Studio 2019，让我来一把快速 CPU 性能分析（CPU Profiles）。
 
 ![Visual Studio Benchmark C++ Result](https://www.forrestthewoods.com/blog/should-small-rust-structs-be-passed-by-copy-or-by-borrow/assets/img/01.png)
 
-C ++配置文件
+C ++ 分析
 
 ![Visual Studio Benchmark Rust Result](https://www.forrestthewoods.com/blog/should-small-rust-structs-be-passed-by-copy-or-by-borrow/assets/img/02.png)
 
-Rust 配置文件
+Rust 分析
 
-啊哈！Rust 看起来几乎都在内联。让我们复刻 Rust，并在在我们的 C ++ 实现中，快速将`__forceinline`抛给一切。
+啊哈！Rust 看起来几乎都在内联。让我们复刻 Rust，并在我们的 C ++ 实现之前，扔出一发强力的`__forceinline`。
 
 ```
   C++ w/ inlining
@@ -166,11 +166,11 @@ Rust 配置文件
     f64 by-borrow: 11,967 (0.9% slower)
 ```
 
-内联 C ++提供了大约 12％的提升。但`double`仍然比`float`快。C ++仍然比 Rust 慢。
+内联 C ++ 提供了大约 12％的提升。但`double`仍然比`float`快。C ++ 仍然比 Rust 慢。
 
 ### 别名
 
-我认为我的 C ++和 Rust 实现都是常见用法。然而他们是不同的！当 Rust 返回一个元组时，C ++通过引用取出参数。这是因为 Rust 元组的使用令人愉快，C ++元组是一个怪物。但我离题了。
+我认为我的 C ++ 和 Rust 实现都是常见用法。然而他们是不同的！当 Rust 返回一个元组时，C ++ 则是通过引用取出参数。这是因为 Rust 元组的使用令人愉快，而 C ++ 元组是一个怪物。但我离题了。
 
 ```rust
 // Rust
@@ -191,9 +191,9 @@ float closest_pt_segment_segment(
 }
 ```
 
-这种微妙的差异可能会对性能产生巨大影响。C ++版本编译器无法确定输出参数是否有别名。这可能会限制其优化能力。同时 Rust 使用，并返回已知为非别名的局部变量。
+这种微妙的差异可能会对性能产生巨大影响。C ++ 版本编译器无法确定输出参数是否有别名。这可能会限制其优化能力。同时 Rust 使用，并返回已知为非别名（non-aliased）的局部变量。
 
-有趣的是，修复上面的别名并没有什么区别！通过内联的方式，编译器已经处理它。令我惊讶的是，C ++对以下代码处理得不好：
+有趣的是，修复上面的别名并没有什么区别！通过内联的方式，编译器已经处理它。令我惊讶的是，以下代码 C ++ 并没有处理好：
 
 ```c++
 void run_test(
@@ -219,19 +219,19 @@ void run_test(
     f64 by-borrow: 11,524 (2.60% faster)
 ```
 
-## 编译标志
+## 编译标志（Compile Flags）
 
-此时，C ++和 Rust 都使用默认选项进行编译。Visual Studio 能暴露了大量的标志。我尝试调整一堆标志来提高性能。
+此时，C ++ 和 Rust 都使用默认选项进行编译。Visual Studio 能给出大量的标志。我尝试调整一堆标志来提高性能。
 
-- 喜欢快速代码（/Ot）
+- 代码速度优先（/Ot）
 - 禁用异常
 - 高级 Vector 扩展 2（/arch:AVX2）
 - 浮点模式:快速（/fp:fast）
 - 启用浮点异常:否（/fp:except-）
 - 禁用安全检查 /GS-
-- 控制流量守卫: No
+- 控制流防护: No
 
-唯一能够产生真正差异的标志是“禁用异常”和 AVX2。每个约 10％ 提升。我决定放弃 AVX2，试图与 Rust 相提并论。
+唯一能够产生真正差异的标志是“禁用异常”和 AVX2。每个约 10％ 提升。在与 Rust 硬碰硬的尝试中，我决定停止 AVX2。
 
 ```
   C++ w/ inlining, tuples, no C++ exceptions
@@ -242,19 +242,19 @@ void run_test(
     f64 by-borrow: 10,467 (3.67% faster)
 ```
 
-我们已经进行了三次 C ++优化，但我们仍然存在两个谜团。为什么是`double`比`float`快？为什么 C ++仍比 Rust 慢得多？
+我们已经进行了三次 C ++ 优化，但我们仍然存在两个谜团。为什么是`double`比`float`快？为什么 C ++ 仍比 Rust 慢得多？
 
 ## 更深入
 
-我试着在[Godbolt](https://godbolt.org/z/1gENA_)对代码反汇编以下。显然存在差异。但我不够聪明，无法量化它们。
+我试着在[Godbolt](https://godbolt.org/z/1gENA_)对代码反汇编一下。显然存在差异。但我不够聪明，无法量化它们。
 
 ![Godbolt C++](https://www.forrestthewoods.com/blog/should-small-rust-structs-be-passed-by-copy-or-by-borrow/assets/img/03.png)
 
-接下来我决定破解开放的 VTune。在这里，差异被揭示为白天！
+接下来我决定敲打敲打 open VTune。而这差异，一天就揭示了！
 
 ![VTune Rust f32](https://www.forrestthewoods.com/blog/should-small-rust-structs-be-passed-by-copy-or-by-borrow/assets/img/04.png)
 
-分支错误预测很糟糕。不奇怪。仔细查看 Vector Capacity Usage（FPU）。以下是针对不同构建，报告该值的方式:
+分支错误预测很糟糕。不奇怪。仔细查看 Vector Capacity Usage（FPU）。以下是针对不同构建，该值的报告:
 
 ```
   Rust f32    42.3%
@@ -263,15 +263,15 @@ void run_test(
   C++  double 25.0%
 ```
 
-Yowza！无论出于何种原因，我都不知道究竟是什么，Rust 在利用 CPU 的浮点向量方面效率更高。差异是巨大的！Rust`f32`效率几乎是 C ++`float`的 3.5 倍。并且，出于某种原因，C ++`double`是`float`效率的两倍！🤷♂️
+Yowza！无论出于何种原因，我都不知道究竟是什么，Rust 在利用 CPU 的浮点向量方面效率更高。差异是巨大的！Rust`f32`效率几乎是 C ++ `float`的 3.5 倍。并且，出于某种原因，C ++ `double`是`float`效率的两倍！🤷♂️
 
 显而易见的猜测是 Rust 编译器在自动 Vector 化方面做得更好。那么故事到此为止了吗，还是 To be Continued？我老实说不知道。我现在已尽可能地深挖。如果有任何专家愿意提供更多详细信息，我会全力以赴。
 
 ## 复制与借用传递
 
-不知何故，我的 Rust 文章花了更多时间谈论 C ++。但那没关系！
+不知何故，我的 Rust 文章花了更多时间谈论 C ++ 。但那没关系！
 
-我们的初步测试表明，复制和借用之间的差异不到百分之一。在我的综合测试中，关键原因似乎是因为，尽管我没有任何一个`#[inline]`宣言，Rust 也会自动内联！此外，Rust 自动生成代码的速度是类似 C ++实现的两倍。
+我们的初步测试表明，复制和借用之间的差异不到百分之一。在我的综合测试中，关键原因似乎是因为，尽管我没有任何一个`#[inline]`宣言/声明，Rust 也会自动内联！此外，Rust 自动生成代码的速度是类似 C ++ 实现的两倍。
 
 对于小型 Rust 结构，我对复制与借用的答案是**复制传递**。这个答案有几点需要注意。
 
