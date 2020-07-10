@@ -124,7 +124,7 @@ _没有为 CfP 提出任何问题_.
 - [libc：添加在 Android 上缺少的一堆常量和函数](https://github.com/rust-lang/libc/pull/1795)
 - [libc：添加更多 WASI libc 定义。](https://github.com/rust-lang/libc/pull/1811)
 - [libc：声明`seekdir`和`telldir` for WASI。](https://github.com/rust-lang/libc/pull/1804)
-- [stdarch：修复或整数比较](https://github.com/rust-lang/stdarch/pull/872)
+- [stdarch：修复或让整数比较（integer comparisons）相等](https://github.com/rust-lang/stdarch/pull/872)
 - [cargo：编写 GNU tar 文件，支持长名称。](https://github.com/rust-lang/cargo/pull/8453)
 - [crates.io：使用 default 分支别名，而不是“master”](https://github.com/rust-lang/crates.io/pull/2601)
 - [clippy：添加了限制 lint —— pattern-type-mismatch](https://github.com/rust-lang/rust-clippy/pull/4841)
