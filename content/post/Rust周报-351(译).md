@@ -1,0 +1,200 @@
+---
+title: "Rust周报 351(译)"
+date: 2020-08-13T15:57:34+08:00
+tags: ["week"]
+description: "螃蟹-Rust周报-351"
+css: ["/css/main.css", "/css/stylesheet.css", "/css/rust-week.css"]
+series: "Rust周报-中文"
+draft: false
+---
+
+- [this-week-in-rust](https://this-week-in-rust.org)
+- 日期：2020-08-11
+- [原文：351 期](https://this-week-in-rust.org/blog/2020/08/11/this-week-in-rust-351/)
+
+你好，欢迎再来一期*本周的螃蟹行情*！[Rust](http://rust-lang.org)是一种追求三位一体的系统语言：安全性、并发性和速度。这是它的进展和社区的每周总结。有什么要说的吗？推特[@ThisWeekInRust](https://twitter.com/ThisWeekInRust)或[向我们发送请求](https://github.com/cmr/this-week-in-rust)。 想参与吗？[我们热爱贡献](https://github.com/rust-lang/rust/blob/master/CONTRIBUTING.md).
+
+*这本周的螃蟹行情*是在[在 Github 上](https://github.com/cmr/this-week-in-rust)公开的。如果你在本周的问题中发现任何错误，[请提交 PR](https://github.com/cmr/this-week-in-rust/pulls)。
+
+查看[本周的 _This Week in Rust Podcast_](https://rustacean-station.org/episode/027-twir-351/)
+
+# Rust 社区的更新
+
+本周没有正式的 Rust 公告！:)
+
+### 工具
+
+- [Rust Analyzer Changelog ＃37](https://rust-analyzer.github.io/thisweek/2020/08/10/changelog-37.html)
+- [IntelliJ Rust 更新日志＃128](https://intellij-rust.github.io/2020/08/10/changelog-128.html)
+
+### 时事通讯
+
+- [Rust GameDev＃12 月刊 -2020 年 7 月](https://rust-gamedev.github.io/posts/newsletter-012/)
+- [Rust in Blockchain -我们的智能（合约），好了吗？](https://rustinblockchain.org/newsletters/2020-08-05-are-we-smart-contract-yet/)
+
+### 观察/想法
+
+- [史蒂夫·克拉伯尼克（Steve Klabnik）访谈](https://evrone.com/steve-klabnik-interview)
+- [为什么 QEMU 应该从 C 变成 Rust](http://blog.vmsplice.net/2020/08/why-qemu-should-move-from-c-to-rust.html?m=1)
+- [Rust 的第一印象](https://john-millikin.com/first-impressions-of-rust)
+- [如何坚持使用 Rust ](https://dev.to/pieohpah/how-to-stick-with-rust-1gpf)
+- [为什么学习 Rust 很棒...作为第二语言](https://dev.to/blorente/why-learning-rust-is-great-as-a-second-language-5583)
+- [零成本抽象需要的最小优化集合是什么？](https://robert.ocallahan.org/2020/08/what-is-minimal-set-of-optimizations.html)
+- [Propane：Rust 的实验性 generator 语法](https://without.boats/blog/propane/)
+- \[ES] [¿por qué me gusta tanto rust?](https://blog.categulario.tk/por-que-me-gusta-tanto-rust.html)
+
+### 学习标准 Rust
+
+- [Rust 的，移动（Move），复制（Copy）和克隆（Clone）](https://hashrust.com/blog/moves-copies-and-clones-in-rust/)
+- [给 Pythonista 的 Rust ＃2：构建 CSS 内联的 Rust 箱子](https://dygalo.dev/blog/rust-for-a-pythonista-2/)
+- [幸存的 Rust 异步接口](https://fasterthanli.me/articles/surviving-rust-async-interfaces)
+- [Rust ，测试异步函数的两种简单方法](https://blog.x5ff.xyz/blog/async-tests-tokio-rust/)
+- [克隆自己 —— 重构，由线程生成的 Rust 类型](https://www.philipdaniels.com/blog/2020/self-cloning-for-multiple-threads-in-rust/)
+- [分配 API，分配器和虚拟内存](https://notes.iveselov.info/programming/allocation-api-and-allocators)
+- [Rust 中的变量和内存管理](https://willcrichton.net/notes/type-safe-printf/)
+- \[ES] [polimorfismo con traits en rust](https://emanuelpeg.blogspot.com/2020/08/polimorfismo-con-traits-en-rust.html#.Xy7c6ukK2fc.reddit)
+- \[PT] [aprendendo rust: 06 - controles de fluxo](https://dev.to/pehdepano/aprendendo-rust-06-controles-de-fluxo-4mff)
+- \[PT] [meia hora aprendendo rust - parte 1](https://rodolfoghi.github.io/posts/meia-hora-aprendendo-rust-parte1/)
+- \[视频] [crust of rust: channels](https://www.youtube.com/watch?v=b4mS5UPHh20)
+
+### 了解更多 Rust
+
+- [从零到生产＃3：如何从头开始引导 Rust Web API](https://www.lpalmieri.com/posts/2020-08-09-zero-to-production-3-how-to-bootstrap-a-new-rust-web-api-from-scratch/)
+- [在生产中，使用 Rust Lambda](https://www.cvpartner.com/blog/using-rust-lambdas-in-production)
+- [将 Postgres 与 Rust 合并](https://blog.knoldus.com/incorporate-postgres-with-rust/)
+- [让我们实现一个 Bloom 过滤器](https://onatm.dev/2020/08/10/let-s-implement-a-bloom-filter/)
+- [Rust 中的 Contiguous Data 指南](https://github.com/paulkernfeld/contiguous-data-in-rust)
+- [Inbound 和 Outbound FFI](https://www.possiblerust.com/guide/inbound-outbound-ffi)
+- [教程：具有 WebAssembly，Rust 和 WASI 的 Deno 应用程序](https://www.secondstate.io/articles/deno-webassembly-rust-wasi/)
+- [使用 Rust 的单页应用程序](http://www.sheshbabu.com/posts/rust-wasm-yew-single-page-application/)
+- [用 Rust ，实现类型安全的 printf](https://willcrichton.net/notes/type-safe-printf/)
+- [使用 Rust 和 LLVM ，建立 Brainf\*ck 编译器](https://benkonz.github.io/building-a-brainfuck-compiler-with-rust-and-llvm/)
+- [使用基于 Rust 的框架，实现现代化网络功能](https://opensource.com/article/20/8/capsule-networking)
+- [让我们构建一个 RedditBot 来管理播放列表链接 —— I](https://dev.to/delta_maniac/lets-build-a-redditbot-to-curate-playlist-links-1k4o)
+- [让我们构建一个 RedditBot 来策划播放列表链接 —— II](https://dev.to/delta_maniac/lets-build-a-redditbot-to-curate-playlist-links-ii-48kf)
+- [iOS 上的 Rust，with SDL2](https://blog.aclysma.com/rust-on-ios-with-sdl2/)
+- \[视频] [using linux libc in rust - with the file-locker crate](https://youtu.be/UgNrDb6hQQ0)
+- \[视频] [embedded rust mob programming](https://youtu.be/BZqt187RWTw)
+- \[视频] [implementing tcp in rust (part 1)](https://youtu.be/bzja9fQWzdA)
+- \[视频] [define a function with parameters in rust](https://vimeo.com/446618910)
+
+### 项目更新
+
+- [Knurling-rs 公告](https://ferrous-systems.com/blog/knurling-rs/)
+- [Meili 为 Rust 开源搜索，筹集了 150 万欧元](https://blog.meilisearch.com/meili-fundraise/)
+- [hors —— 通过命令行，即时获得编码的答案，现已发布 v0.6.4，默认情况下带有漂亮的彩色输出](https://www.reddit.com/r/rust/comments/i55s5z/hors_instant_coding_answers_via_the_command_line/)
+
+### 杂项
+
+- [用 Rust ，构建更快的 CouchDB View 服务器](https://www.garrensmith.com/blogs/fortuna-rs-couchdb-view-server)
+- [嵌入式，Rust async-await 的承诺](https://tweedegolf.nl/blog/41/the-promise-of-rust-async-await-for-embedded)
+- [Rust 实现 .NET Profiling API](https://code.camdenreslink.com/dev/implementing-the-dot-net-profiling-api-in-rust/)
+- [Rust 朝命名参数迈出的第一步](https://yoric.github.io/post/rust-named-arguments/)
+- [面向 21 世纪的嵌入式 Rust 工具](https://ferrous-systems.com/blog/21st-century-embedded-tooling/)
+- [rustc 1.44.1 ，在 Debian 中可重生产](https://www.reddit.com/r/rust/comments/i4ij47/rustc_1441_is_reproducible_in_debian/)
+- [Google 工程师刚刚提交了新的 LLVM 优化器以供考虑，该优化器平均可提高 2.33％的性能。](https://www.reddit.com/r/rust/comments/i44ahg/google_engineers_just_submitted_a_new_llvm/)
+
+# 周箱
+
+这周的箱子是[bevy](https://crates.io/crates/bevy)，一个功能强大但简单的游戏引擎。
+
+谢谢[mmmmib](https://users.rust-lang.org/t/crate-of-the-week/2704/798)的建议！
+
+[提交您下周的建议和投票][submit_crate]！
+
+[submit_crate]: https://users.rust-lang.org/t/crate-of-the-week/2704
+
+# 呼吁参与
+
+一直想为开源项目做贡献，但不知道从哪里开始？每周我们都会重点介绍 Rust 社区的一些任务，供您选择和开始！
+
+其中一些任务也可能有导师，请访问任务页面以获取更多信息。
+
+- [cargo：重复数据删除工作区信息](https://github.com/rust-lang/cargo/issues/8415)
+- [dotenv-linter: several good first issues](https://github.com/dotenv-linter/dotenv-linter/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22)
+- [ruma: several help wanted issues](https://github.com/ruma/ruma/labels/help%20wanted)
+- [tensorbase: several good first issues](https://github.com/tensorbase/tensorbase/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
+- [kanidm: several good first issues](https://github.com/kanidm/kanidm/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
+- [Libre-SOC 的第一个 SoC：将 PowerPC64 添加到 Rust 的内联汇编（inline assembly）新实现中](https://bugs.libre-soc.org/show_bug.cgi?id=451)
+
+如果您是 Rust 项目的所有者并且正在寻找贡献者，请提交任务[这里][guidelines]。
+
+[guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
+
+# Rust Core 的更新
+
+共有 307 个拉取请求[在上周合并][merged]
+
+[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-08-03..2020-08-10
+
+- [添加 回溯展开支持，给 Sony PSP](https://github.com/rust-lang/rust/pull/75280)
+- [使用 asm! 时，修复在不受支持架构上的 ICE](https://github.com/rust-lang/rust/pull/75227)
+- [处理更多类型的常见 traits](https://github.com/rust-lang/chalk/pull/591)
+- [将`char`作为一个原语（primitive），即使是一个作用域内的模块](https://github.com/rust-lang/rust/pull/75318)
+- [禁止在 main，使用`#[track_caller]`](https://github.com/rust-lang/rust/pull/75130)
+- [移除，consts w/ feature const-generics 之前类型参数的限制](https://github.com/rust-lang/rust/pull/74953)
+- [实现`min_const_generics` feature gate](https://github.com/rust-lang/rust/pull/74877)
+- [调整易混淆的 idents 检查](https://github.com/rust-lang/rust/pull/75349)
+- [miri：接受一些 post-monomorphization(后-单态化) 错误](https://github.com/rust-lang/miri/pull/1503)
+- [将`FileDescriptor::as_file_handle`的错误进行冒泡处理](https://github.com/rust-lang/miri/pull/1501)
+- [简化`array::IntoIter`](https://github.com/rust-lang/rust/pull/75271)
+- [多态化：未执行的常数](https://github.com/rust-lang/rust/pull/75260)
+- [实例：polymorphize upvar closures/generators](https://github.com/rust-lang/rust/pull/75255)
+- [清理 int 字节序转换函数中的 const-hacks(非常规手段)](https://github.com/rust-lang/rust/pull/75253)
+- [添加`as_mut_ptr`到`NonNull<[T]>`](https://github.com/rust-lang/rust/pull/75248)
+- [使`MaybeUninit::as_`（`mut_`）`ptr` 变为 const](https://github.com/rust-lang/rust/pull/75250)
+- [使`&BTreeMap`的`IntoIterator`生命周期界限， match 为 `&HashMap`](https://github.com/rust-lang/rust/pull/75203)
+- [实现`into_keys`和`into_values`给 关联的 maps](https://github.com/rust-lang/rust/pull/75163)
+- [稳定化：`Ident::new_raw`](https://github.com/rust-lang/rust/pull/75084)
+- [限制 Unix 上的 I/O vector 计数](https://github.com/rust-lang/rust/pull/75005)
+- [添加`unsigned_abs`到 有符号整数](https://github.com/rust-lang/rust/pull/74759)
+- [BTreeMap：在 DrainFilter 中，推迟 root access 的更好方法](https://github.com/rust-lang/rust/pull/75257)
+- [hashbrown：如果为空，请勿迭代着 to drop](https://github.com/rust-lang/hashbrown/pull/182)
+- [hashbrown：放松 HashSet 构造函数的界限](https://github.com/rust-lang/hashbrown/pull/185)
+- [hashbrown：避免闭包，以提高编译时间](https://github.com/rust-lang/hashbrown/pull/183)
+- [stdarch：添加更多有关 adds 的事情](https://github.com/rust-lang/stdarch/pull/881)
+- [futures：避免在 write_all_vectored 中没有任何数据的写入](https://github.com/rust-lang/futures-rs/pull/2187)
+- [清理 rustdoc 的`main()`](https://github.com/rust-lang/rust/pull/75124)
+- [rustdoc：在 doc 中，显示非引用类型的省略性生存周期](https://github.com/rust-lang/rust/pull/75237)
+
+## Rust 编译器性能分类
+
+- [2020-08-11](https://github.com/rust-lang/rustc-perf/blob/master/triage/2020-08-11.md)。1 个回归，1 个改进，其中 1 个汇总。从上周开始没有 突出表现。
+
+## 批准的 RFC
+
+对 Rust 的更改跟随 Rust[RFC（征求意见）流程](https://github.com/rust-lang/rfcs#rust-rfcs)。以下是本周批准实施的 RFC：
+
+_本周未批准任何 RFC。_
+
+## 最后意见征询期
+
+每周[团队](https://www.rust-lang.org/team.html)宣布即将做出决定的 RFC 和主要 PR 的“最终意见征询期”。立即发表您的意见。
+
+### [RFC](https://github.com/rust-lang/rfcs/labels/final-comment-period)
+
+_当前没有 RFC 处于最后评论期。_
+
+### [跟踪问题和 PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
+
+_在最终评论期内，目前没有任何跟踪问题或 PR。_
+
+## 新的 RFC
+
+- [关于 POSIX 错误编号的建议 in `std::os::unix`](https://github.com/rust-lang/rfcs/pull/2973)
+- [泄漏容器的标准式方法](https://github.com/rust-lang/rfcs/pull/2969)
+- [为 hygienic macro items，引入 '\$self' macro metavar](https://github.com/rust-lang/rfcs/pull/2968)
+
+# 本周报价
+
+> 除非您认为 Rust 很容易，不然的话，你将不被允许在结构中使用引用。只因它们是 Rust 的地狱模式，将使你崩溃一天。
+
+- [Kornel on rust-users](https://users.rust-lang.org/t/perpetual-n00b-struggling-with-ownership-again/46920/4)
+
+Thanks to [Tom Phinney](https://users.rust-lang.org/t/twir-quote-of-the-week/328/918) for the suggestion!
+
+[Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
+
+_This Week in Rust is edited by: [nellshamrell](https://github.com/nellshamrell), [llogiq](https://github.com/llogiq), and [cdmistman](https://github.com/cdmistman)._
+
+<small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/i8iqb9/this_week_in_rust_351/)</small>
