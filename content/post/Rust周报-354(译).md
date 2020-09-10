@@ -121,7 +121,6 @@ Thanks to [Taehoon Moon](https://users.rust-lang.org/t/crate-of-the-week/2704/80
 
 326 个拉取请求[在上周合并][merged]
 
-[merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-08-17..2020-08-24
 [merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2020-08-24..2020-08-31
 
 - [当指向闭包的 upvars（捕获变量）时，选择指向 move-related span](https://github.com/rust-lang/rust/pull/75933)
