@@ -138,7 +138,7 @@ _本周未批准任何 RFC。_
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
 - \[处置：合并] [rustdoc: 稳定化 --default-theme 命令行选项](https://github.com/rust-lang/rust/pull/79642)
-- \[处置：合并] [implement `from<char>` for u64 and u128.](https://github.com/rust-lang/rust/pull/79502)
+- \[处置：合并] [implement `From<char>` for u64 and u128.](https://github.com/rust-lang/rust/pull/79502)
 - \[处置：合并] [稳定化 `unsafe_cell_get_mut`](https://github.com/rust-lang/rust/pull/79485)
 - \[处置：合并] [Move `{f32,f64}::clamp` to core](https://github.com/rust-lang/rust/pull/79473)
 - \[处置：合并] [稳定化：all stable methods of `Ipv4Addr`, `Ipv6Addr` and `IpAddr` as const](https://github.com/rust-lang/rust/pull/79342)
