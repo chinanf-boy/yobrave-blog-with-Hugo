@@ -3,7 +3,7 @@ title: "Rust周报 332(译)"
 date: 2020-04-04T22:15:50+08:00
 categories: ["Rust"]
 tags: ["week"]
-description: "螃蟹-Rust周报-332"
+description: "this-week-in-rust.org 螃蟹-Rust周报-332"
 css: ["/css/main.css", "/css/stylesheet.css", "/css/rust-week.css"]
 series: "Rust周报-中文"
 draft: false

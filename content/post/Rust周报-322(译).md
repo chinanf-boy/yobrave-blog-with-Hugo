@@ -3,7 +3,7 @@ title: "Rust周报 322(译)"
 date: 2020-01-23T21:50:07+08:00
 categories: ["Rust"]
 tags: ["week"]
-description: "螃蟹-Rust周报-322"
+description: "this-week-in-rust.org 螃蟹-Rust周报-322"
 css: ["/css/main.css", "/css/stylesheet.css", "/css/rust-week.css"]
 series: "Rust周报-中文"
 draft: false
@@ -14,7 +14,7 @@ draft: false
     background: white;
 ">
 
-- [this-week-in-rust]((https://this-week-in-rust.org))
+- [this-week-in-rust](<(https://this-week-in-rust.org)>)
 - 日期：2020-01-21
 - [原文：322 期](https://this-week-in-rust.org/blog/2020/01/21/this-week-in-rust-322/)
 

@@ -3,7 +3,7 @@ title: "Rust周报 323(译)"
 date: 2020-01-30T23:14:57+08:00
 categories: ["Rust"]
 tags: ["week"]
-description: "螃蟹-Rust周报-323"
+description: "this-week-in-rust.org 螃蟹-Rust周报-323"
 css: ["/css/main.css", "/css/stylesheet.css", "/css/rust-week.css"]
 series: "Rust周报-中文"
 draft: false
@@ -87,9 +87,9 @@ draft: false
 - [使用`normalize_and_test_predicates`条件过滤和测试断言，for const-prop](https://github.com/rust-lang/rust/pull/68297)
 - [让 pointers to statics internal](https://github.com/rust-lang/rust/pull/68494)
 - [避免`std::iter::Skip::count`溢出](https://github.com/rust-lang/rust/pull/68469)
-- [通过避免 slice in BTreeMap（具有shared root），来简化 NodeHeader](https://github.com/rust-lang/rust/pull/67686)
+- [通过避免 slice in BTreeMap（具有 shared root），来简化 NodeHeader](https://github.com/rust-lang/rust/pull/67686)
 - [将 Leading_ones 和 Trailing_ones 方法添加到原始整数类型](https://github.com/rust-lang/rust/pull/68165)
-- [futures：避免 FuturesUnordered::poll_next  '饿死' ](https://github.com/rust-lang/futures-rs/pull/2049)
+- [futures：避免 FuturesUnordered::poll_next '饿死' ](https://github.com/rust-lang/futures-rs/pull/2049)
 - [futures：添加 StreamExt::scan](https://github.com/rust-lang/futures-rs/pull/2044)
 - [stdarch：添加 Icelake avx512 功能](https://github.com/rust-lang/stdarch/pull/838)
 - [cargo：存储最大队列长度](https://github.com/rust-lang/cargo/pull/7829)
@@ -113,7 +113,7 @@ _本周未批准 RFC。_
 - \[处置：合并] [target_feature 1.1](https://github.com/rust-lang/rfcs/pull/2396)。
 - \[处置：关闭] [crate changelogs](https://github.com/rust-lang/rfcs/pull/2129)。
 
-### [跟踪问题和PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
+### [跟踪问题和 PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
 - \[处置：合并] [二进制操作背后，原始操作数类型的正确推断](https://github.com/rust-lang/rust/pull/68129)。
 - \[处置：合并] [在判别性省略存在时，Mutex 和 Rwlock 会不合理](https://github.com/rust-lang/rust/issues/68206)。
@@ -134,6 +134,6 @@ Thanks to [Duane](https://users.rust-lang.org/t/twir-quote-of-the-week/328/801) 
 
 [Please submit quotes and vote for next week!](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
-*This Week in Rust is edited by: [nasa42](https://github.com/nasa42) and [llogiq](https://github.com/llogiq).*
+_This Week in Rust is edited by: [nasa42](https://github.com/nasa42) and [llogiq](https://github.com/llogiq)._
 
 <small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/ew3gri/this_week_in_rust_323/).</small>

@@ -3,7 +3,7 @@ title: "Rust周报 319(译)"
 date: 2020-01-03T10:42:33+08:00
 categories: ["Rust"]
 tags: ["week"]
-description: "螃蟹-Rust周报-319"
+description: "this-week-in-rust.org 螃蟹-Rust周报-319"
 css: ["/css/main.css", "/css/stylesheet.css"]
 series: "Rust周报-中文"
 draft: false
@@ -113,7 +113,7 @@ _本周未批准任何 RFC。_
 
 _当前没有 RFC 处于最后评论期。_
 
-### [跟踪问题和PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
+### [跟踪问题和 PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
 _当前没有 RFC 处于最后评论期。_
 

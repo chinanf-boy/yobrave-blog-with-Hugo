@@ -3,7 +3,7 @@ title: "Rust周报 321(译)"
 date: 2020-01-16T21:38:29+08:00
 categories: ["Rust"]
 tags: ["week"]
-description: "螃蟹-Rust周报-321"
+description: "this-week-in-rust.org 螃蟹-Rust周报-321"
 css: ["/css/main.css", "/css/stylesheet.css", "/css/rust-week.css"]
 series: "Rust周报-中文"
 draft: false
@@ -14,10 +14,9 @@ draft: false
     background: white;
 ">
 
-- [this-week-in-rust]((https://this-week-in-rust.org))
+- [this-week-in-rust](<(https://this-week-in-rust.org)>)
 - 日期：2020-01-14
 - [原文：321 期](https://this-week-in-rust.org/blog/2020/01/14/this-week-in-rust-321/)
-
 
 你好，欢迎再来一期*本周的螃蟹行情*！[Rust](http://rust-lang.org)是一种追求三位一体的系统语言：安全性、并发性和速度。这是它的进展和社区的每周总结。有什么要说的吗？推特[@ThisWeekInRust](https://twitter.com/ThisWeekInRust)或[向我们发送请求](https://github.com/cmr/this-week-in-rust)。 想参与吗？[我们热爱贡献](https://github.com/rust-lang/rust/blob/master/CONTRIBUTING.md).
 

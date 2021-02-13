@@ -3,7 +3,7 @@ title: "Rust周报 337(译)"
 date: 2020-05-06T14:04:33+08:00
 categories: ["Rust"]
 tags: ["week"]
-description: "螃蟹-Rust周报-337"
+description: "this-week-in-rust.org 螃蟹-Rust周报-337"
 css: ["/css/main.css", "/css/stylesheet.css", "/css/rust-week.css"]
 series: "Rust周报-中文"
 draft: false

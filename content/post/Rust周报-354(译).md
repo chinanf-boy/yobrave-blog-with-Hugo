@@ -2,7 +2,7 @@
 title: "Rust周报 354(译)"
 date: 2020-09-05T22:33:02+08:00
 tags: ["week"]
-description: "螃蟹-Rust周报-354"
+description: "this-week-in-rust.org 螃蟹-Rust周报-354"
 css: ["/css/main.css", "/css/stylesheet.css", "/css/rust-week.css"]
 series: "Rust周报-中文"
 draft: false

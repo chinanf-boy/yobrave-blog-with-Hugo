@@ -2,7 +2,7 @@
 title: "Rust周报 375(译)"
 date: 2021-01-30T00:04:59+08:00
 tags: ["week"]
-description: "螃蟹-Rust周报-375"
+description: "this-week-in-rust.org 螃蟹-Rust周报-375"
 css: ["/css/main.css", "/css/stylesheet.css", "/css/rust-week.css"]
 series: "Rust周报-中文"
 draft: false

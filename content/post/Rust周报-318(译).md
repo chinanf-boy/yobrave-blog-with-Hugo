@@ -3,7 +3,7 @@ title: "Rust周报 318(译)"
 date: 2019-12-28T11:40:52+08:00
 categories: ["Rust"]
 tags: ["week"]
-description: "螃蟹-Rust周报-318"
+description: "this-week-in-rust.org 螃蟹-Rust周报-318"
 css: ["/css/main.css", "/css/stylesheet.css"]
 series: "Rust周报-中文"
 draft: false
@@ -116,7 +116,7 @@ _本周未批准任何 RFC。_
 - \[处置：合并] [把 apple 32bit targets 降级为 tier 3](https://github.com/rust-lang/rfcs/pull/2837)。
 - \[处置：合并] [宣布 safe-transmute 项目组](https://github.com/rust-lang/rfcs/pull/2835)。
 
-### [跟踪问题和PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
+### [跟踪问题和 PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
 _当前没有 RFC 处于最后评论期。_
 

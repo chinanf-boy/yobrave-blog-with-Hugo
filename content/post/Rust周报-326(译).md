@@ -3,7 +3,7 @@ title: "Rust周报 326(译)"
 date: 2020-02-21T14:51:57+08:00
 categories: ["Rust"]
 tags: ["week"]
-description: "螃蟹-Rust周报-326"
+description: "this-week-in-rust.org 螃蟹-Rust周报-326"
 css: ["/css/main.css", "/css/stylesheet.css", "/css/rust-week.css"]
 series: "Rust周报-中文"
 draft: false
