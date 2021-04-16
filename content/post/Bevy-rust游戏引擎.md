@@ -7,6 +7,7 @@ description: "关于 bevy book, 一款由Rust语言构建且简单明了的数�
 home: false
 css: ["/bevyengine-cn/site.css"]
 draft: false
+labels: false
 ---
 
 {{% rawcss %}}.blog-post > h2:first-child {display:none}{{% /rawcss %}}
