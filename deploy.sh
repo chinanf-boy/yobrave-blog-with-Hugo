@@ -13,6 +13,10 @@ hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
 
 echo "\033[0;32mafter hugo\033[0m"
 
+# open 
+echo "\033[0;32mOpen git proxy\033[0m"
+git config --global http.proxy 'socks5://127.0.0.1:1080' && git config --global https.proxy 'socks5://127.0.0.1:1080'
+
 # upload source
 git add . && git commit -m "$msg" && git push
 
@@ -30,9 +34,9 @@ echo "\033[0;32m git push ...\033[0m"
 # Push source and build repos.
 # open proxy to github
 echo "\033[0;32m git push to github...\033[0m"
-git config --global http.proxy 'socks5://127.0.0.1:1080' && git config --global https.proxy 'socks5://127.0.0.1:1080'
 git push origin master
 # close proxy
+echo "\033[0;32mClose git proxy\033[0m"
 git config --global --unset http.proxy && git config --global --unset https.proxy 
 echo "\033[0;32m git push to coding...\033[0m"
 git push coding master -f
