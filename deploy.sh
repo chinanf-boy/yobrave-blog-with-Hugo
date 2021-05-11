@@ -18,7 +18,9 @@ echo "\033[0;32mOpen git proxy\033[0m"
 git config --global http.proxy 'socks5://127.0.0.1:1080' && git config --global https.proxy 'socks5://127.0.0.1:1080'
 
 # upload source
-git add . && git commit -m "$msg" && git push
+git add . 
+git commit -m "$msg"
+git push
 
 echo "\033[0;32mgo to public task\033[0m"
 
