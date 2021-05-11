@@ -26,7 +26,6 @@ echo "\033[0;32mgo to public task\033[0m"
 
 # Go To Public folder
 cd public
-git pull
 # Add changes to git.
 git add .
 git commit -m "$msg"
@@ -36,7 +35,7 @@ echo "\033[0;32m git push ...\033[0m"
 # Push source and build repos.
 # open proxy to github
 echo "\033[0;32m git push to github...\033[0m"
-git push origin master
+git push origin master -f
 # close proxy
 echo "\033[0;32mClose git proxy\033[0m"
 git config --global --unset http.proxy && git config --global --unset https.proxy 
