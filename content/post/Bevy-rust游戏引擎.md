@@ -10,8 +10,10 @@ draft: false
 labels: false
 ---
 
-{{% rawcss %}}.blog-post > h2:first-child {display:none}{{% /rawcss %}}
+{{< rawcss >}}.blog-post > h2:first-child {display:none}{{< /rawcss >}}
 
+
+{{< rawhtml >}}
 <div class="container">
 <div class="padded-content container">
     <img
@@ -283,3 +285,4 @@ labels: false
     </div>
 </div>
 </div>
+{{< /rawhtml >}}
