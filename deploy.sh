@@ -27,6 +27,7 @@ echo "\033[0;32mgo to public task\033[0m"
 # Go To Public folder
 cd public
 # Add changes to git.
+git checkout master
 git add .
 git commit -m "$msg"
 
