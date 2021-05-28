@@ -3,7 +3,7 @@ title: "Rust周报 391(译)"
 date: 2021-05-21T00:04:48+08:00
 categories: ["Rust"]
 tags: ["week"]
-description: "this-week-in-rust.org 螃蟹-Rust周报-389"
+description: "this-week-in-rust.org 螃蟹-Rust周报-391"
 css:
   [
     "/css/pre_btn.css",
