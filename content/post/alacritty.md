@@ -3,7 +3,7 @@ title: "Alacritty —— 小于5M, 跨平台, OpenGL 终端应用"
 date: 2021-06-14T00:42:19+08:00
 categories: ["Rust"]
 tags: ["app"]
-description: "alacritty"
+description: "alacritty 小于5M, 跨平台, OpenGL 终端应用 Rust编写"
 css: ["/css/main.css", "/css/stylesheet.css", "/css/rust-week.css"]
 series: "使用的东东"
 draft: false
