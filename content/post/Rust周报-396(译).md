@@ -3,7 +3,7 @@ title: "Rust周报 396(译)"
 date: 2021-06-24T23:16:15+08:00
 categories: ["Rust"]
 tags: ["week"]
-description: "this-week-in-rust.org 螃蟹-Rust周报-395"
+description: "this-week-in-rust.org 螃蟹-Rust周报-396"
 css:
   [
     "/css/pre_btn.css",
