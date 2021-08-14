@@ -1,11 +1,17 @@
 ---
 title: "Rust周报 403(译)"
 date: 2021-08-13T22:57:31+08:00
-categories: []
-tags: []
-description: ""
-css: ['/css/main.css','/css/stylesheet.css']
-draft: true
+categories: ["Rust"]
+tags: ["week"]
+description: "this-week-in-rust.org 螃蟹-Rust周报-403"
+css:
+  [
+    "/css/pre_btn.css",
+    "https://www.ecorax.net/style.css",
+    "https://www.ecorax.net/color/marrow.css",
+  ]
+series: "Rust周报-中文"
+draft: false
 ---
 
 - [this-week-in-rust](https://this-week-in-rust.org)
