@@ -172,3 +172,6 @@ Thanks to [Riccardo D'Ambrosio](https://users.rust-lang.org/t/twir-quote-of-the-
 _This Week in Rust is edited by: [nellshamrell](https://github.com/nellshamrell), [llogiq](https://github.com/llogiq), and [cdmistman](https://github.com/cdmistman)._
 
 <small>[Discuss on r/rust](https://www.reddit.com/r/rust/comments/pgv2zq/this_week_in_rust_406/)</small>
+
+> coding net 的网站托管开始收费啦，抹去，配置 DNS，只剩下 github 啦！ 
+> 185.199.111.153 chinanf-boy.github.io
