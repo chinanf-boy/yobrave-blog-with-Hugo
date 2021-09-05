@@ -33,10 +33,6 @@ git commit -m "$msg"
 
 echo "\033[0;32m git push ...\033[0m"
 
-# Push source and build repos.
-echo "\033[0;32m git push to coding...\033[0m"
-git push coding master -f
-
 # open proxy to github
 echo "\033[0;32m git push to github...\033[0m"
 # git push origin master -f
