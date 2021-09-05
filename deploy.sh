@@ -20,7 +20,7 @@ echo "\033[0;32mafter hugo\033[0m"
 # upload source
 git add . 
 git commit -m "$msg"
-git push
+# git push
 
 echo "\033[0;32mgo to public task\033[0m"
 
@@ -34,14 +34,15 @@ git commit -m "$msg"
 echo "\033[0;32m git push ...\033[0m"
 
 # Push source and build repos.
+echo "\033[0;32m git push to coding...\033[0m"
+git push coding master -f
+
 # open proxy to github
 echo "\033[0;32m git push to github...\033[0m"
-git push origin master -f
+# git push origin master -f
 # close proxy
 # echo "\033[0;32mClose git proxy\033[0m"
 # git config --global --unset http.proxy && git config --global --unset https.proxy 
-echo "\033[0;32m git push to coding...\033[0m"
-git push coding master -f
 
 
 # Come Back up to the Project Root
