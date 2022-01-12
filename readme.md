@@ -5,14 +5,12 @@
 ---
 
 
-部署 github 与 coding{中国}
+部署 github
 
 http://llever.com
 
 
-### 有些说, 交给 CI 之类的 部署, 但是 密钥却 暴露了, 不安全
-
-### 部署两个 git 点
+### 部署 github
 
 也只是
 
