@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# example: sh deploy.sh "这次的 commit 信息"
+
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
 # Commit changes.
