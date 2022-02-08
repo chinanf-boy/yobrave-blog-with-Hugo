@@ -17,7 +17,7 @@ labels: false
 
 ---
 
-{{% rawcss %}}.blog-post > h2:first-child {display:none}{{% /rawcss %}}
+{{< rawcss >}}.blog-post > h2:first-child {display:none}{{< /rawcss >}}
 
 <div id="main-content">
 
